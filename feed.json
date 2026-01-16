@@ -1,0 +1,1515 @@
+[
+  {
+    "title": "A Guide to Fine-Tuning FunctionGemma",
+    "link": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the \"FunctionGemma Tuning Lab,\" a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Under the Hood: Universal Commerce Protocol (UCP)",
+    "link": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer surfaces (like Gemini and AI Mode in Search) with business backends, enabling seamless shopping from product discovery to purchase. UCP simplifies integration for businesses, supports various payment providers, and is designed to power the next generation of conversational commerce experiences.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
+    "link": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Real-World Agent Examples with Gemini 3",
+    "link": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterprise automation, and stateful agents with advanced memory. Clone the examples and start building today.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Gemini 3 Flash is now available in Gemini CLI",
+    "link": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency development tasks, handling complex code generation, large context windows (like processing 1,000 comment pull requests), and generating load-testing scripts quickly and reliably.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
+    "link": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Conductor: Introducing context-driven development for Gemini CLI",
+    "link": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Developer’s guide to multi-agent patterns in ADK",
+    "link": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Introducing A2UI: An open project for agent-driven interfaces",
+    "link": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), it offers a framework-agnostic solution to safely render remote agent UIs, with integrations in AG UI, Flutter's GenUI SDK, Opal, and Gemini Enterprise.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Building agents with the ADK and the new Interactions API",
+    "link": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent remote A2A agent via InteractionsApiTransport, allowing seamless expansion of multi-agent systems with minimal refactoring.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Pick up exactly where you left off with Session Management in Gemini CLI",
+    "link": "https://developers.googleblog.com/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Gemini CLI's new automatic **Session Management** (v0.20.0+) saves your conversation history, tool outputs, and reasoning, providing project-specific context. Resume easily using the **Interactive Session Browser** (`/resume`) or command-line flags (`--resume`). This feature ensures you never lose your work state, capturing prompts, tool execution details, and usage stats. Customize history with cleanup policies in `settings.json`.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Don't Trust, Verify: Building End-to-End Confidential Applications on Google Cloud",
+    "link": "https://developers.googleblog.com/dont-trust-verify-building-end-to-end-confidential-applications-on-google-cloud/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Google Cloud enables end-to-end confidential applications, protecting sensitive data 'in-use' with hardware isolation. The solution combines Confidential Space (TEE/attestation), Oak Functions (private sandbox), and Oak Session (attested end-to-end encryption for scale). This framework anchors user trust in open-source components, proving confidentiality for sensitive workloads like proprietary GenAI models, even when running behind untrusted load balancers.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "MediaTek NPU and LiteRT: Powering the next generation of on-device AI",
+    "link": "https://developers.googleblog.com/mediatek-npu-and-litert-powering-the-next-generation-of-on-device-ai/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "LiteRT and MediaTek are announcing the new LiteRT NeuroPilot Accelerator. This is a ground-up successor for the TFLite NeuroPilot delegate, bringing seamless deployment experience, state-of-the-art LLM support, and advanced performance to millions of devices worldwide.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Architecting efficient context-aware multi-agent framework for production",
+    "link": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "ADK introduces **Context Engineering** to scale AI agents beyond large context windows. It treats context as a compiled view over a tiered, stateful system (**Session, Memory, Artifacts**). This architecture uses explicit processors for transformation, enables efficient compaction and caching, and allows for strict, scoped context handoffs in multi-agent workflows to ensure reliability and cost-effectiveness in production.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Announcing the Data Commons Gemini CLI extension",
+    "link": "https://developers.googleblog.com/announcing-the-data-commons-gemini-cli-extension/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "The new Data Commons extension for the Gemini CLI makes accessing public data easier. It allows users to ask complex, natural-language questions to query Data Commons' public datasets, grounding LLM responses in authoritative sources to reduce AI hallucinations. Data Commons is an organized library of public data from sources like the UN and World Bank. The extension enables instant data analysis, exploration, and integration with other data-related extensions.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "New Gemini API updates for Gemini 3",
+    "link": "https://developers.googleblog.com/new-gemini-api-updates-for-gemini-3/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Gemini 3 is available via API with updates for developers: new `thinking_level` for depth control, `media_resolution` for multimodal processing, and enforced `Thought Signatures` for agentic workflows, especially with function calling and image generation. It also introduces combining Google Search/URL Grounding with Structured Outputs and new usage-based pricing for Grounding. Best practices, like using default temperature, are advised for optimal results.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Unlocking Peak Performance on Qualcomm NPU with LiteRT",
+    "link": "https://developers.googleblog.com/unlocking-peak-performance-on-qualcomm-npu-with-litert/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "LiteRT's new Qualcomm AI Engine Direct (QNN) Accelerator unlocks dedicated NPU power for on-device GenAI on Android. It offers a unified mobile deployment workflow, SOTA performance (up to 100x speedup over CPU), and full model delegation. This enables smooth, real-time AI experiences, with FastVLM-0.5B achieving over 11,000 tokens/sec prefill on Snapdragon 8 Elite Gen 5 NPU.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Build with Google Antigravity, our new agentic development platform",
+    "link": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Introducing Google Antigravity, a new agentic development platform for orchestrating code. It combines an AI-powered Editor View with a Manager Surface to deploy agents that autonomously plan, execute, and verify complex tasks across your editor, terminal, and browser. Agents communicate progress via Artifacts (screenshots, recordings) for easy verification. Available now in public preview.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Building production AI on Google Cloud TPUs with JAX",
+    "link": "https://developers.googleblog.com/building-production-ai-on-google-cloud-tpus-with-jax/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "The JAX AI Stack is a modular, industrial-grade, end-to-end machine learning platform built on the core JAX library, co-designed with Cloud TPUs. It features key components like JAX, Flax, Optax, and Orbax for foundational model development, plus an extended ecosystem for the full ML lifecycle and production. This integration provides a powerful, scalable foundation for AI development, delivering significant performance advantages.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Building with Gemini 3 in Jules",
+    "link": "https://developers.googleblog.com/jules-gemini-3/",
+    "pubDate": "2026-01-16T17:05:04.638Z",
+    "contentSnippet": "Jules, an always-on, multi-step software development agent, now features Gemini 3, offering clearer reasoning and better reliability. Recent improvements include parallel CLI runs, a stable API, and safer Git handling. Upcoming features include directory attachment without GitHub and automatic PR creation. Jules aims to reduce software writing overhead so developers can focus on building.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Maximum-Effiency Coding Setup",
+    "link": "https://towardsdatascience.com/maximum-effiency-coding-setup/",
+    "pubDate": "2026-01-16T16:30:00.000Z",
+    "contentSnippet": "Learn how to be a more efficient programmer\nThe post Maximum-Effiency Coding Setup appeared first on Towards Data Science.",
+    "categories": [
+      "Programming",
+      "Agentic Ai",
+      "claude",
+      "Coding",
+      "coding agents",
+      "Productivity"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "ArkType Introduces ArkRegex with Type Safe Regular Expressions",
+    "link": "https://www.infoq.com/news/2026/01/arkregex-introduced-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-16T16:00:00.000Z",
+    "contentSnippet": "Introducing ArkRegex: a revolutionary drop-in for JavaScript's RegExp that ensures type safety in regular expressions without runtime overhead. Seamlessly integrate with native features like capture groups and receive robust type inference, revolutionizing TypeScript development and eliminating runtime failures. Simplify regex with confidence—experience ArkRegex today!\n By Daniel Curtis",
+    "categories": [
+      "Regular Expressions",
+      "JavaScript",
+      "Web Development",
+      "TypeScript",
+      "Validation",
+      "Development",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "350PB, Millions of Events, One System: Inside Uber’s Cross-Region Data Lake and Disaster Recovery",
+    "link": "https://www.infoq.com/news/2026/01/uber-hivesync-data-lake/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-16T15:00:00.000Z",
+    "contentSnippet": "Uber’s HiveSync is a sharded, cross-region batch replication system keeping Hive/HDFS data consistent across multiple regions. Handling 5M daily Hive events and 8PB of data replication, it uses event-driven jobs, hybrid RPC and DistCp strategies, DAG-based orchestration, and dynamic sharding, enabling disaster recovery, horizontal scaling, and 99.99% cross-region data accuracy.\n By Leela Kumili",
+    "categories": [
+      "Hive",
+      "Open Source",
+      "ETL",
+      "Sharding",
+      "MySQL",
+      "Hadoop",
+      "Data Warehouse",
+      "State-machine",
+      "Apache Hive",
+      "Orchestration",
+      "Deployment / Datacenter",
+      "Data Lake",
+      "RPC",
+      "Event Driven Architecture",
+      "Database Replication",
+      "Apache Hadoop",
+      "Architecture & Design",
+      "Development",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Cutting LLM Memory by 84%: A Deep Dive into Fused Kernels",
+    "link": "https://towardsdatascience.com/cutting-llm-memory-by-84-a-deep-dive-into-fused-kernels/",
+    "pubDate": "2026-01-16T15:00:00.000Z",
+    "contentSnippet": "Why your final LLM layer is OOMing and how to fix it with a custom Triton kernel.\nThe post Cutting LLM Memory by 84%: A Deep Dive into Fused Kernels appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Cross Entropy",
+      "Deep Dives",
+      "Deep Learning",
+      "Kernel",
+      "Triton"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "\n        Apache Hudi™ at Uber: Engineering for Trillion-Record-Scale Data Lake Operations\n      ",
+    "link": "\n        https://www.uber.com/blog/apache-hudi-at-uber/\n      ",
+    "pubDate": "2026-01-16T14:30:00.000Z",
+    "contentSnippet": "Check out this deep dive into how Uber runs Apache Hudi™ at extreme scale—handling trillions of records, petabytes of data, and high-concurrency table services across regions.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Astro is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/astro-joins-cloudflare/",
+    "pubDate": "2026-01-16T14:00:00.000Z",
+    "contentSnippet": "The Astro Technology Company team — the creators of the Astro web framework — is joining Cloudflare. We’re doubling down on making Astro the best framework for content-driven websites, today and in the years to come.",
+    "categories": [
+      "Application Services",
+      "Developer Platform",
+      "Cloudflare Workers",
+      "Workers AI",
+      "Security",
+      "AI"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "From RGB to Lab: Addressing Color Artifacts in AI Image Compositing",
+    "link": "https://towardsdatascience.com/from-rgb-to-lab-addressing-color-artifacts-in-ai-image-compositing/",
+    "pubDate": "2026-01-16T13:30:00.000Z",
+    "contentSnippet": "A multi-tier approach to segmentation, color correction, and domain-specific enhancement\nThe post From RGB to Lab: Addressing Color Artifacts in AI Image Compositing appeared first on Towards Data Science.",
+    "categories": [
+      "Artificial Intelligence",
+      "Color",
+      "Computer Vision",
+      "Deep Learning",
+      "Editors Pick"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Cloudflare Launches ‘Code Orange: Fail Small’ Resilience Plan After Multiple Global Outages",
+    "link": "https://www.infoq.com/news/2026/01/cloudflare-resilience-plan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-16T12:00:00.000Z",
+    "contentSnippet": "Cloudflare recently published a detailed resilience initiative called Code Orange: Fail Small, outlining a comprehensive plan to prevent large-scale service disruptions after two major network outages in the past six weeks.\n By Craig Risi",
+    "categories": [
+      "Incident Response",
+      "Cloud",
+      "Resilience",
+      "Cloudflare",
+      "DevOps",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "The Great Data Closure: Why Databricks and Snowflake Are Hitting Their Ceiling",
+    "link": "https://towardsdatascience.com/the-great-data-closure-why-databricks-and-snowflake-are-hitting-their-ceiling/",
+    "pubDate": "2026-01-16T12:00:00.000Z",
+    "contentSnippet": "Acquisitions, venture, and an increasingly competitive landscape all point to a market ceiling\nThe post The Great Data Closure: Why Databricks and Snowflake Are Hitting Their Ceiling appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Artificial Intelligence",
+      "Data Engineering",
+      "Databricks",
+      "Deep Dives",
+      "Snowflake"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Presentation: Holistic Engineering: Organic Problem Solving for Complex Evolving Systems",
+    "link": "https://www.infoq.com/presentations/holistic-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-16T09:50:00.000Z",
+    "contentSnippet": "Vanessa Formicola discusses how \"invisible\" forces shape our code and architecture. She shares patterns like \"Cirque du Soleil coding\" and \"Shared Kitchen Sinks,\" explaining why technical problems often have social roots. Architects and leaders will learn how to use Social Decision Records (SDRs) and holistic modeling to make the implicit explicit and drive success.\n By Vanessa Formicola",
+    "categories": [
+      "QCon London 2025",
+      "Transcripts",
+      "Work Management",
+      "Culture",
+      "Culture & Methods",
+      "presentation"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Podcast: Why Engineering Culture Is Everything: Building Teams That Actually Work",
+    "link": "https://www.infoq.com/podcasts/engineering-culture-building-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-16T09:00:00.000Z",
+    "contentSnippet": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Gonzalo (Glo) Maldonado about the central role of engineering culture, measuring team health through qualitative metrics, and learning from other engineering disciplines.\n By Gonzalo (Glo) Maldonado",
+    "categories": [
+      "Engineering Culture Podcast",
+      "Code Quality",
+      "Leadership",
+      "Teamwork",
+      "Management",
+      "Culture",
+      "Culture & Methods",
+      "podcast"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "When Shapley Values Break: A Guide to Robust Model Explainability",
+    "link": "https://towardsdatascience.com/when-shapley-values-break-a-guide-to-robust-model-explainability/",
+    "pubDate": "2026-01-15T16:30:00.000Z",
+    "contentSnippet": "Shapley Values are one of the most common methods for explainability, yet they can be misleading. Discover how to overcome these limitations to achieve better insights.\nThe post When Shapley Values Break: A Guide to Robust Model Explainability appeared first on Towards Data Science.",
+    "categories": [
+      "Artificial Intelligence",
+      "Editors Pick",
+      "Explainable Ai",
+      "Machine Learning",
+      "Shap Values",
+      "Xai"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "How to Run Coding Agents in Parallel",
+    "link": "https://towardsdatascience.com/how-to-run-coding-agents-in-parallell/",
+    "pubDate": "2026-01-15T15:00:00.000Z",
+    "contentSnippet": "Get the most out of Claude Code\nThe post How to Run Coding Agents in Parallel appeared first on Towards Data Science.",
+    "categories": [
+      "Agentic AI",
+      "AI Agents",
+      "claude",
+      "Cli Tool",
+      "coding agents",
+      "Llm"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Human Native is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/human-native-joins-cloudflare/",
+    "pubDate": "2026-01-15T14:00:00.000Z",
+    "contentSnippet": "Cloudflare acquires Human Native, an AI data marketplace specialising in transforming content into searchable and useful data, to accelerate work building new economic models for the Internet.",
+    "categories": [
+      "AI",
+      "Generative AI",
+      "Data",
+      "Acquisitions",
+      "Developer Platform"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "The 2026 Goal Tracker: How I Built a Data-Driven Vision Board Using Python, Streamlit, and Neon",
+    "link": "https://towardsdatascience.com/the-2026-goal-tracker-how-i-built-a-data-driven-vision-board-using-python-streamlit-and-neon/",
+    "pubDate": "2026-01-15T13:30:00.000Z",
+    "contentSnippet": "Designing a centralized system to track daily habits and long-term goals\nThe post The 2026 Goal Tracker: How I Built a Data-Driven Vision Board Using Python, Streamlit, and Neon appeared first on Towards Data Science.",
+    "categories": [
+      "Productivity",
+      "Data Science",
+      "Data Visualization",
+      "Project Goals",
+      "Project Management",
+      "Python"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Do You Smell That? Hidden Technical Debt in AI Development",
+    "link": "https://towardsdatascience.com/do-you-smell-that-hidden-technical-debt-in-ai-development/",
+    "pubDate": "2026-01-15T12:00:00.000Z",
+    "contentSnippet": "Why speed without standards creates fragile AI products\nThe post Do You Smell That? Hidden Technical Debt in AI Development appeared first on Towards Data Science.",
+    "categories": [
+      "Artificial Intelligence",
+      "AI coding assistants",
+      "Ai Product Management",
+      "Code Smells",
+      "Editors Pick",
+      "Programming"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Taking the Technical Leadership Path",
+    "link": "https://www.infoq.com/news/2026/01/technical-leadership-path/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-15T11:08:00.000Z",
+    "contentSnippet": "Technical leaders face challenges beyond individual contributor work: aligning with business on investments, managing systemic aspects, mentoring, and keeping up with a changing codebase. We need technical alignment—shared codestyle, implementation patterns, and standards—to avoid accidental complexity. Leadership grows through practicing skills, improving team issues, and acting as a role model.\n By Ben Linders",
+    "categories": [
+      "GOTO Conference",
+      "Social Skills",
+      "Code Quality",
+      "Team Leader",
+      "Leadership",
+      "Coaching and Mentoring",
+      "Complex Systems",
+      "Communication",
+      "Agile Conferences",
+      "Culture & Methods",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "AWS Hikes EC2 Capacity Block Rates by 15% in Uniform ML Pricing Adjustment",
+    "link": "https://www.infoq.com/news/2026/01/ec2-ml-capacity-price-hike/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-15T10:17:00.000Z",
+    "contentSnippet": "AWS has raised EC2 Capacity Block prices for ML by 15% across all regions, impacting GPU-based workloads. The uniform price hikes affect top-tier instances powered by NVIDIA GPUs, underscoring supply chain pressures and inflation. With limited alternatives, organizations face higher costs, emphasizing the need for effective workload optimization and cost management strategies.\n By Steef-Jan Wiggers",
+    "categories": [
+      "Cloud",
+      "Amazon",
+      "Machine Learning",
+      "Cost Optimization",
+      "GPU",
+      "EC2",
+      "Amazon Web Services",
+      "AWS",
+      "Architecture & Design",
+      "Development",
+      "DevOps",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Mistral Releases OCR 3 with Improved Accuracy on Handwritten and Structured Documents",
+    "link": "https://www.infoq.com/news/2026/01/mistral-ocr3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-15T09:00:00.000Z",
+    "contentSnippet": "Mistral has released Mistral OCR 3, the latest version of its optical character recognition model, focused on higher accuracy across a wide range of document types, including handwritten notes, forms, low-quality scans, and complex tables.\n By Robert Krzaczyński",
+    "categories": [
+      "Mistral AI",
+      "Large language models",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Django Releases Version 6.0 with Built-In Background Tasks and Native CSP Support",
+    "link": "https://www.infoq.com/news/2026/01/django-6-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-15T08:00:00.000Z",
+    "contentSnippet": "Django 6.0 has arrived, offering developers cutting-edge features like a built-in tasks framework, enhanced security with Content Security Policy, and template partials for modular design. This release supports Python 3.12 to 3.14, streamlining web app development while promoting clean, rapid design. Join the excitement as Django modernizes the landscape of web application development!\n By Daniel Curtis",
+    "categories": [
+      "Application Security",
+      "Web Development",
+      "Python",
+      "Django",
+      "Postgres",
+      "Development",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Why Human-Centered Data Analytics Matters More Than Ever",
+    "link": "https://towardsdatascience.com/why-human-centered-data-analytics-matters-more-than-ever/",
+    "pubDate": "2026-01-14T16:30:00.000Z",
+    "contentSnippet": "From optimizing metrics to designing meaning: putting people back into data-driven decisions\nThe post Why Human-Centered Data Analytics Matters More Than Ever appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Data Analytics",
+      "Editors Pick",
+      "Feedback Loop",
+      "Human Centered Ai"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "What Is a Knowledge Graph — and Why It Matters",
+    "link": "https://towardsdatascience.com/what-is-a-knowledge-graph-and-why-it-matters/",
+    "pubDate": "2026-01-14T15:00:00.000Z",
+    "contentSnippet": "How structured knowledge became healthcare’s quiet advantage\nThe post What Is a Knowledge Graph — and Why It Matters appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Data Governance",
+      "Editors Pick",
+      "Explainable Ai",
+      "Healthcare Analytics",
+      "Knowledge Graphs"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Presentation: Achieving a Culture That Works: Inclusive Leadership that Drives Lasting Success",
+    "link": "https://www.infoq.com/presentations/inclusive-leadership/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-14T14:15:00.000Z",
+    "contentSnippet": "Matthew Card discusses the intersection of leadership and inclusivity at the BBC. He explains how \"changing the bar\" rather than just raising it can transform team dynamics. Covering trust, psychological safety, and his \"C.A.P.S.\" and \"D.O.S.E.\" frameworks for resilience, he shares practical strategies for engineering leaders to eliminate toxic behaviors and empower diverse talent to thrive.\n By Matthew Card",
+    "categories": [
+      "Leadership",
+      "QCon London 2025",
+      "Transcripts",
+      "Inclusion",
+      "Culture & Methods",
+      "presentation"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Glitches in the Attention Matrix",
+    "link": "https://towardsdatascience.com/glitches-in-the-attention-matrix-a-history-of-transformer-artifacts-and-the-latest-research-on-how-to-fix-them/",
+    "pubDate": "2026-01-14T13:30:00.000Z",
+    "contentSnippet": "A history of Transformer artifacts and the latest research on how to fix them\nThe post Glitches in the Attention Matrix appeared first on Towards Data Science.",
+    "categories": [
+      "Deep Learning",
+      "Artificial Intelligence",
+      "Attention",
+      "Computer Vision",
+      "Deep Dives",
+      "Large Language Models"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Topic Modeling Techniques for 2026: Seeded Modeling, LLM Integration, and Data Summaries",
+    "link": "https://towardsdatascience.com/topic-modeling-techniques-for-2026-seeded-modeling-llm-integration-and-data-summaries/",
+    "pubDate": "2026-01-14T12:00:00.000Z",
+    "contentSnippet": "Seeded topic modeling, integration with LLMs, and training on summarized data are the fresh parts of the NLP toolkit.\nThe post Topic Modeling Techniques for 2026: Seeded Modeling, LLM Integration, and Data Summaries appeared first on Towards Data Science.",
+    "categories": [
+      "Machine Learning",
+      "Editors Pick",
+      "Llm Applications",
+      "NLP",
+      "Statistical Modeling",
+      "Topic Modelling"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "How Agoda Unified Multiple Data Pipelines into a Single Source of Truth",
+    "link": "https://www.infoq.com/news/2026/01/agoda-unified-data-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-14T11:30:00.000Z",
+    "contentSnippet": "Agoda recently described how it consolidated multiple independent data pipelines into a centralized Apache Spark-based platform to eliminate inconsistencies in financial data. The company implemented a multi-layered quality framework that combines automated validations, machine-learning-based anomaly detection, and data contracts, while processing millions of daily booking transactions.\n By Eran Stiller",
+    "categories": [
+      "Enterprise Architecture",
+      "Data Pipelines",
+      "Reference Architecture",
+      "Apache Spark",
+      "Architecture & Design",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "AI-Powered Code Editor Cursor Introduces Dynamic Context Discovery to Improve Token-Efficiency",
+    "link": "https://www.infoq.com/news/2026/01/cursor-dynamic-context-discovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-14T11:00:00.000Z",
+    "contentSnippet": "Cursor introduced a new approach to minimize the context size of requests sent to large language models. Called dynamic context discovery, this method moves away from including large amounts of static context upfront, allowing the agent to dynamically retrieve only the information it needs. This reduces token usage and limits the inclusion of potentially confusing or irrelevant details.\n By Sergio De Simone",
+    "categories": [
+      "Prompt Engineering",
+      "Model Context Protocol (MCP)",
+      "IDE",
+      "Agents",
+      "Large language models",
+      "Development",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Vercel Open-Sources Bash Tool for Context Retrieval Using Local Filesystems",
+    "link": "https://www.infoq.com/news/2026/01/vercel-bash-tool/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-14T10:56:00.000Z",
+    "contentSnippet": "Vercel has open-sourced bash-tool that provides a Bash execution engine for AI agents, enabling them to run filesystem-based commands to retrieve context for model prompts.\n By Daniel Dominguez",
+    "categories": [
+      "Cloud Computing",
+      "Artificial Intelligence",
+      "Software Development",
+      "Agents",
+      "Large language models",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Article: Platform-as-a-Product: Declarative Infrastructure for Developer Velocity",
+    "link": "https://www.infoq.com/articles/platform-golden-path-approach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-14T09:00:00.000Z",
+    "contentSnippet": "Declarative infrastructure config hides complexity, enabling developers to focus on application code. Unified YAML per service allows early cost validation, while independent CI with centralized CD balances team autonomy and deployment consistency. This standardized approach scales across organizations, making infrastructure invisible and operations automatic.\n By Avinash Sabat",
+    "categories": [
+      "Infrastructure as Code",
+      "Developer Experience",
+      "YAML",
+      "Automation",
+      "FinOps",
+      "Platform Engineering",
+      "DevSecOps",
+      "DevOps",
+      "article"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "What came first: the CNAME or the A record?",
+    "link": "https://blog.cloudflare.com/cname-a-record-order-dns-standards/",
+    "pubDate": "2026-01-14T00:00:00.000Z",
+    "contentSnippet": "A recent change to 1.1.1.1 accidentally altered the order of CNAME records in DNS responses, breaking resolution for some clients. This post explores the technical root cause, examines the source code of affected resolvers, and dives into the inherent ambiguities of the DNS RFCs.",
+    "categories": [
+      "1.1.1.1",
+      "Post Mortem",
+      "DNS",
+      "Resolver",
+      "Standards",
+      "Bugs",
+      "Consumer Services"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "An introduction to AWS Bedrock",
+    "link": "https://towardsdatascience.com/an-introduction-to-aws-bedrock/",
+    "pubDate": "2026-01-13T18:00:00.000Z",
+    "contentSnippet": "The how, why, what and where of Amazon’s LLM access layer\nThe post An introduction to AWS Bedrock appeared first on Towards Data Science.",
+    "categories": [
+      "Artificial Intelligence",
+      "AWS",
+      "Aws Bedrock",
+      "Data Science",
+      "Llm Applications",
+      "Programming"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "From ‘Dataslows’ to Dataflows: The Gen2 Performance Revolution in Microsoft Fabric",
+    "link": "https://towardsdatascience.com/from-dataslows-to-dataflows-the-gen2-performance-revolution-in-microsoft-fabric/",
+    "pubDate": "2026-01-13T16:30:00.000Z",
+    "contentSnippet": "Dataflows were (rightly?) considered \"the slowest and least performant option\" for ingesting data into Power BI/Microsoft Fabric. However, things are changing rapidly and the latest Dataflow enhancements changes how we play the game\nThe post From ‘Dataslows’ to Dataflows: The Gen2 Performance Revolution in Microsoft Fabric appeared first on Towards Data Science.",
+    "categories": [
+      "Data",
+      "Data analysis",
+      "Data Engineering",
+      "Microsoft Fabric"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "QCon London 2026: Practitioner-Led Tracks on Connectivity & Production AI Engineering",
+    "link": "https://www.infoq.com/news/2026/01/qcon-london-2026-ai-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-13T16:00:00.000Z",
+    "contentSnippet": "QCon London 2026 returns March 16–19 with 15 tracks for senior leads. Key sessions cover system integration via MCP, AI engineering, and debugging distributed systems. Explore modern security, Staff+ insights, and performance optimization with peer-led and practical discussions.\n By Artenisa Chatziou",
+    "categories": [
+      "QCon Software Development Conference",
+      "Artificial Intelligence",
+      "Platform Engineering",
+      "Enterprise",
+      "QCon London 2026",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Under the Uzès Sun: When Historical Data Reveals the Climate Change",
+    "link": "https://towardsdatascience.com/under-the-uzes-sun-when-historical-data-reveals-the-climate-change/",
+    "pubDate": "2026-01-13T15:00:00.000Z",
+    "contentSnippet": "Longer summers, milder winters: analysis of temperature trends in Uzès, France, year after year.\nThe post Under the Uzès Sun: When Historical Data Reveals the Climate Change appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Climate Change",
+      "Climate Data",
+      "Data Analysis",
+      "Deep Dives"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "\n        How Uber Conquered Database Overload: The Journey from Static Rate-Limiting to Intelligent Load Management\n      ",
+    "link": "\n        https://www.uber.com/blog/from-static-rate-limiting-to-intelligent-load-management/\n      ",
+    "pubDate": "2026-01-13T14:30:00.000Z",
+    "contentSnippet": "🧠 Overload in stateful databases isn’t one-dimensional. See how we built an intelligent load manager that sheds smarter, adapts to diverse signals, and stays fair under pressure. Even better, this approach led to a ~70% reduction in P99 latency.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Why Your ML Model Works in Training But Fails in Production",
+    "link": "https://towardsdatascience.com/why-your-ml-model-works-in-training-but-fails-in-production/",
+    "pubDate": "2026-01-13T13:30:00.000Z",
+    "contentSnippet": "Hard lessons from building production ML systems where data leaks, defaults lie, populations shift, and time does not behave the way we expect.\nThe post Why Your ML Model Works in Training But Fails in Production appeared first on Towards Data Science.",
+    "categories": [
+      "Artificial Intelligence",
+      "Data Science",
+      "Feature Engineering",
+      "Machine Learning",
+      "Mlops",
+      "Production Ml"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "How to Maximize Claude Code Effectiveness",
+    "link": "https://towardsdatascience.com/how-to-maximize-claude-code-effectiveness/",
+    "pubDate": "2026-01-13T12:00:00.000Z",
+    "contentSnippet": "Learn how to get the most out of agentic coding\nThe post How to Maximize Claude Code Effectiveness appeared first on Towards Data Science.",
+    "categories": [
+      "Agentic AI",
+      "AI coding assistants",
+      "coding agents",
+      "Editors Pick",
+      "Llm Applications",
+      "Programming"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "What we know about Iran’s Internet shutdown",
+    "link": "https://blog.cloudflare.com/iran-protests-internet-shutdown/",
+    "pubDate": "2026-01-13T00:00:00.000Z",
+    "contentSnippet": "Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.",
+    "categories": [
+      "Internet Shutdown",
+      "Radar",
+      "Internet Traffic",
+      "1.1.1.1"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "How AI Can Become Your Personal Language Tutor",
+    "link": "https://towardsdatascience.com/how-ai-can-become-your-personal-language-tutor/",
+    "pubDate": "2026-01-12T16:30:00.000Z",
+    "contentSnippet": "How I used n8n to build AI study partners for learning Mandarin: vocabulary, listening, and pronunciation correction.\nThe post How AI Can Become Your Personal Language Tutor appeared first on Towards Data Science.",
+    "categories": [
+      "Artificial Intelligence",
+      "AI",
+      "Data Science",
+      "Language",
+      "n8n",
+      "Productivity"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Why 90% Accuracy in Text-to-SQL is 100% Useless",
+    "link": "https://towardsdatascience.com/why-90-accuracy-in-text-to-sql-is-100-useless/",
+    "pubDate": "2026-01-12T15:00:00.000Z",
+    "contentSnippet": "The eternal promise of self-service analytics\nThe post Why 90% Accuracy in Text-to-SQL is 100% Useless appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Data Science",
+      "Editors Pick",
+      "Llm",
+      "Machine Learning",
+      "text-to-sql"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "When Does Adding Fancy RAG Features Work?",
+    "link": "https://towardsdatascience.com/when-does-adding-fancy-rag-features-work/",
+    "pubDate": "2026-01-12T13:30:00.000Z",
+    "contentSnippet": "Looking at the performance of different pipelines\nThe post When Does Adding Fancy RAG Features Work? appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Ai Engineering",
+      "Artificial Intelligence",
+      "Editors Pick",
+      "Llm Evaluation",
+      "Rag"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "The grief when AI writes most of the code",
+    "link": "https://blog.pragmaticengineer.com/the-grief-when-ai-writes-most-of-the-code/",
+    "pubDate": "2026-01-07T18:53:57.000Z",
+    "contentSnippet": "When AI writes almost all code, what happens to software engineering? There is grief involved for us developers, that's for sure.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "\n        From Monitoring to Observability: Our Ultra-Marathon to a Cloud-Native Platform\n      ",
+    "link": "\n        https://www.uber.com/blog/from-monitoring-to-observability-cloud-native/\n      ",
+    "pubDate": "2026-01-06T17:18:33.000Z",
+    "contentSnippet": "Managing a global corporate network at Uber’s scale can feel a bit like running an ultra-marathon. There are long stretches of smooth sailing, but you’re always preparing for the unexpected mountain pass or sudden change in weather. For years, our engineering teams have navigated this terrain with a traditional, monolithic monitoring system. We knew we needed to switch to a modern pair of carbon-fiber running shoes. This meant a complete overhaul: a journey to replace our legacy system with a cloud-native observability platform built for speed, flexibility, and endurance on an open-source stack.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "A closer look at a BGP anomaly in Venezuela",
+    "link": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
+    "pubDate": "2026-01-06T08:00:00.000Z",
+    "contentSnippet": "There has been speculation about the cause of a BGP anomaly observed in Venezuela on January 2. We take a look at BGP route leaks, and dive into what the data suggests caused the anomaly in question.",
+    "categories": [
+      "BGP",
+      "RPKI",
+      "Routing",
+      "Routing Security",
+      "Network Services"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "How Workers powers our internal maintenance scheduling pipeline",
+    "link": "https://blog.cloudflare.com/building-our-maintenance-scheduler-on-workers/",
+    "pubDate": "2025-12-22T14:00:00.000Z",
+    "contentSnippet": "Physical data center maintenance is risky on a global network. We built a maintenance scheduler on Workers to safely plan disruptive operations, while solving scaling challenges by viewing the state of our infrastructure through a graph interface on top of multiple data sources and metrics pipelines.",
+    "categories": [
+      "Cloudflare Workers",
+      "Reliability",
+      "Prometheus",
+      "Infrastructure"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Code Orange: Fail Small — our resilience plan following recent incidents",
+    "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
+    "pubDate": "2025-12-19T22:35:30.000Z",
+    "contentSnippet": "We have declared “Code Orange: Fail Small” to focus everyone at Cloudflare on a set of high-priority workstreams with one simple goal: ensure that the cause of our last two global outages never happens again.",
+    "categories": [
+      "Outage",
+      "Post Mortem",
+      "Code Orange"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Innovating to address streaming abuse — and our latest transparency report",
+    "link": "https://blog.cloudflare.com/h1-2025-transparency-report/",
+    "pubDate": "2025-12-19T14:00:00.000Z",
+    "contentSnippet": "Cloudflare's H1 2025 Transparency Report is here. We discuss our principles on content blocking and our innovative approach to combating unauthorized streaming and copyright abuse.",
+    "categories": [
+      "Transparency"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "The Pulse: Cloudflare’s latest outage proves dangers of global configuration changes (again)",
+    "link": "https://blog.pragmaticengineer.com/the-pulse-cloudflares-latest-outage/",
+    "pubDate": "2025-12-18T17:44:21.000Z",
+    "contentSnippet": "Deja vu: a large Cloudflare outage caused by an instantly rolled-out global config change – two weeks after a similar problem",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
+    "link": "https://blog.cloudflare.com/r2-sql-aggregations/",
+    "pubDate": "2025-12-18T14:00:00.000Z",
+    "contentSnippet": "Cloudflare’s R2 SQL, a distributed query engine, now supports aggregations. Explore how we built distributed GROUP BY execution, using scatter-gather and shuffling strategies to run analytics directly over your R2 Data Catalog.",
+    "categories": [
+      "R2",
+      "Data",
+      "Edge Computing",
+      "Rust",
+      "Serverless",
+      "SQL"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "\n        Powering Billion-Scale Vector Search with OpenSearch\n      ",
+    "link": "\n        https://www.uber.com/blog/powering-billion-scale-vector-search-with-opensearch/\n      ",
+    "pubDate": "2025-12-18T14:00:00.000Z",
+    "contentSnippet": "Uber powers billion-scale vector search with OpenSearch. Discover the innovative optimizations we designed to boost search efficiency, scalability, and reliability for massive datasets.",
+    "categories": [
+      "\n        Data / ML\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "\n        How Uber Indexes Streaming Data with Pull-Based Ingestion in OpenSearch™\n      ",
+    "link": "\n        https://www.uber.com/blog/how-uber-indexes-streaming-data-with-pull-based-ingestion-in-opensearch/\n      ",
+    "pubDate": "2025-12-16T14:00:00.000Z",
+    "contentSnippet": "Discover how Uber uses OpenSearch™’s streaming ingestion architecture for powerful search, and learn about our contributions to a pull-based ingestion framework in the OpenSearch project.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "How Temporal Powers Reliable Cloud Operations at Netflix",
+    "link": "https://netflixtechblog.com/how-temporal-powers-reliable-cloud-operations-at-netflix-73c69ccb5953?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-12-15T23:51:59.000Z",
+    "contentSnippet": "",
+    "categories": [],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "Netflix Live Origin",
+    "link": "https://netflixtechblog.com/netflix-live-origin-41f1b0ad5371?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-12-15T17:38:16.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "live-origin",
+      "live-streaming",
+      "content-delivery-network",
+      "cloud-storage"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks",
+    "link": "https://blog.cloudflare.com/radar-2025-year-in-review/",
+    "pubDate": "2025-12-15T14:00:00.000Z",
+    "contentSnippet": "We present our 6th annual review of Internet trends and patterns observed across the globe, revealing the disruptions, advances and metrics that defined 2025.",
+    "categories": [
+      "Year in Review",
+      "Radar",
+      "Trends",
+      "Internet Trends",
+      "Internet Traffic",
+      "Outage",
+      "Internet Quality",
+      "Security",
+      "AI"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "ChatGPT's rivals, Kwai's quiet rise: the top Internet services of 2025",
+    "link": "https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/",
+    "pubDate": "2025-12-15T14:00:00.000Z",
+    "contentSnippet": "AI competition intensified in 2025 as ChatGPT gained strong challengers. Instagram climbed, X declined, and platforms like Shopee, Temu, and Kwai reshaped global Internet usage. Our 2025 DNS data shows how Internet patterns evolved.",
+    "categories": [
+      "Radar",
+      "Internet Traffic",
+      "Trends",
+      "DNS",
+      "Year in Review"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "\n        How Uber, OCI™, and Ampere® Co-Optimized OCI AmpereOne® M A4 Compute\n      ",
+    "link": "\n        https://www.uber.com/blog/how-uber-oci-and-ampere-co-optimized-oci-ampereone-m-a4-compute/\n      ",
+    "pubDate": "2025-12-15T14:00:00.000Z",
+    "contentSnippet": "By co-designing the new OCI™ AmpereOne-M® A4 instances, Uber has moved beyond adapting to existing hardware and is now shaping the next generation of compute, optimized for its real-world workloads.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "The Pulse: Could a 5-day RTO be around the corner for Big Tech?",
+    "link": "https://blog.pragmaticengineer.com/the-pulse-could-a-5-day-rto-be-around-the-corner-for-big-tech/",
+    "pubDate": "2025-12-13T15:21:25.000Z",
+    "contentSnippet": "From next February, workers at Instagram must be in the office, five days a week. This makes Meta the second tech giant after Amazon to mandate a 5-day RTO. Will more big companies do the same?",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "React2Shell and related RSC vulnerabilities threat brief: early exploitation activity and threat actor techniques",
+    "link": "https://blog.cloudflare.com/react2shell-rsc-vulnerabilities-exploitation-threat-brief/",
+    "pubDate": "2025-12-11T16:20:00.000Z",
+    "contentSnippet": "Early activity indicates that threat actors quickly integrated this vulnerability into their scanning and reconnaissance routines and targeted critical infrastructure including nuclear fuel, uranium and rare earth elements. We outline the tactics they appear to be using and how Cloudflare is protecting customers.",
+    "categories": [
+      "Vulnerabilities",
+      "Threat Intelligence",
+      "Research"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "\n        From Batch to Streaming: Accelerating Data Freshness in Uber’s Data Lake\n      ",
+    "link": "\n        https://www.uber.com/blog/from-batch-to-streaming-accelerating-data-freshness-in-ubers-data-lake/\n      ",
+    "pubDate": "2025-12-11T14:00:00.000Z",
+    "contentSnippet": "Learn how Uber moved from batch to streaming ingestion with IngestionNext, reducing data latency and unlocking real-time analytics across its petabyte-scale data lake.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "\n        Blazing Fast OLAP on Uber’s Inventory and Catalog Data with Apache Pinot™\n      ",
+    "link": "\n        https://www.uber.com/blog/blazing-fast-olap-on-ubers-inventory-and-catalog-data-with-apache-pinot/\n      ",
+    "pubDate": "2025-12-09T14:00:00.000Z",
+    "contentSnippet": "Discover how Uber used Apache Pinot™ to build a real-time index on its massive inventory of billions of items to power search use cases, internal tools, and operational workflows.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Shifting left at enterprise scale: how we manage Cloudflare with Infrastructure as Code",
+    "link": "https://blog.cloudflare.com/shift-left-enterprise-scale/",
+    "pubDate": "2025-12-09T06:00:00.000Z",
+    "contentSnippet": "Cloudflare has shifted to Infrastructure as Code and policy enforcement to manage internal Cloudflare accounts. This new architecture uses Terraform, custom tooling, and Open Policy Agent to enforce security baselines and increase engineering velocity.",
+    "categories": [
+      "Infrastructure as Code",
+      "Customer Zero",
+      "Terraform",
+      "Dogfooding"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
+    "link": "https://blog.cloudflare.com/python-workers-advancements/",
+    "pubDate": "2025-12-08T06:00:00.000Z",
+    "contentSnippet": "Recent advancements in Cloudflare Python Workers means fast cold starts, comprehensive package support, and a great developer experience. We explain how they were achieved and show how Python can be used to build serverless applications on Cloudflare.",
+    "categories": [
+      "Cloudflare Workers",
+      "Python"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Downdetector and the real cost of no upstream dependencies",
+    "link": "https://blog.pragmaticengineer.com/downdetector-and-the-real-cost-of-no-upstream-dependencies/",
+    "pubDate": "2025-12-05T09:14:50.000Z",
+    "contentSnippet": "During the Cloudflare outage, Downdetector was also unavailable. I got details from the team about why they have a hard dependency on Cloudflare, and why that won’t change anytime soon.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "Cloudflare outage on December 5, 2025",
+    "link": "https://blog.cloudflare.com/5-december-2025-outage/",
+    "pubDate": "2025-12-05T00:00:00.000Z",
+    "contentSnippet": "Cloudflare experienced a significant traffic outage on  December 5, 2025, starting approximately at 8:47 UTC. The incident lasted approximately 25 minutes before resolution. We are sorry for the impact that it caused to our customers and the Internet. The incident was not caused by an attack and was due to configuration changes being applied to attempt to mitigate a recent industry-wide vulnerability impacting React Server Components.",
+    "categories": [
+      "Outage",
+      "Post Mortem"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "AV1 — Now Powering 30% of Netflix Streaming",
+    "link": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-12-04T20:09:30.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "av1",
+      "video-encoding",
+      "streaming",
+      "aomedia",
+      "netflix"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "\n        Improving MySQL® Cluster Uptime: Making MGR Viable at Scale\n      ",
+    "link": "\n        https://www.uber.com/blog/improving-mysql-cluster-uptime-part2/\n      ",
+    "pubDate": "2025-12-04T14:00:00.000Z",
+    "contentSnippet": "Dive into the implementation, automation and failover logic that made MySQL® Group Replication viable at Uber scale.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Cloudflare WAF proactively protects against React vulnerability",
+    "link": "https://blog.cloudflare.com/waf-rules-react-vulnerability/",
+    "pubDate": "2025-12-03T14:20:00.000Z",
+    "contentSnippet": "Cloudflare offers protection against a new high profile vulnerability for React Server Components: CVE-2025-55182. All WAF customers are automatically protected as long as the WAF is deployed.",
+    "categories": [
+      "Cloudforce One",
+      "WAF",
+      "Web Application Firewall",
+      "Vulnerabilities",
+      "CVE",
+      "React"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Cloudflare's 2025 Q3 DDoS threat report -- including Aisuru, the apex of botnets",
+    "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q3/",
+    "pubDate": "2025-12-03T14:00:00.000Z",
+    "contentSnippet": "Welcome to the 23rd edition of Cloudflare’s Quarterly DDoS Threat Report. This report offers a comprehensive analysis of the evolving threat landscape of Distributed Denial of Service (DDoS) attacks based on data from the Cloudflare network. In this edition, we focus on the third quarter of 2025.",
+    "categories": [
+      "DDoS Reports",
+      "DDoS"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "\n        Improving MySQL® Cluster Uptime: Designing Advanced Detection, Mitigation, and Consensus with Group Replication\n      ",
+    "link": "\n        https://www.uber.com/blog/improving-mysql-cluster-uptime-part1/\n      ",
+    "pubDate": "2025-12-02T14:00:00.000Z",
+    "contentSnippet": "At Uber, high availability is non-negotiable. Learn how we’ve adopted MySQL® Group Replication in single-primary mode to achieve a less than 10 second failover time  and massively improve reliability and write availability during failures.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Why Replicate is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/why-replicate-joining-cloudflare/",
+    "pubDate": "2025-12-01T06:00:00.000Z",
+    "contentSnippet": "Today, we’re excited to announce that Replicate is officially part of Cloudflare. We wanted to share a bit about our journey and why we made this decision.",
+    "categories": [
+      "AI",
+      "Workers AI",
+      "Developers",
+      "Acquisitions"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Partnering with Black Forest Labs to bring FLUX.2 [dev] to Workers AI",
+    "link": "https://blog.cloudflare.com/flux-2-workers-ai/",
+    "pubDate": "2025-11-25T00:00:00.000Z",
+    "contentSnippet": "FLUX.2 [dev] by Black Forest Labs is now on Workers AI! This advanced open-weight image model offers superior photorealism, multi-reference inputs, and granular control with JSON prompting.",
+    "categories": [
+      "AI",
+      "Workers AI",
+      "Developers"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Get better visibility for the WAF with payload logging",
+    "link": "https://blog.cloudflare.com/waf-payload-logging/",
+    "pubDate": "2025-11-24T14:00:00.000Z",
+    "contentSnippet": "The WAF provides ways for our customers to gain insight into why it takes certain actions. The more granular and precise the insight, the more reproducible and understandable it is. Revamped payload logging is one such method.",
+    "categories": [
+      "Firewall",
+      "WAF",
+      "Logging"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "\n        Evolution and Scale of Uber’s Delivery Search Platform\n      ",
+    "link": "\n        https://www.uber.com/blog/evolution-and-scale-of-ubers-delivery-search-platform/\n      ",
+    "pubDate": "2025-11-24T14:00:00.000Z",
+    "contentSnippet": "How does Uber Eats power search across billions of stores, dishes, and grocery items? We built a next-gen semantic search platform that understands meaning, not just keywords—handling typos, synonyms, and multiple languages.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "A startup in Mongolia translated my book",
+    "link": "https://blog.pragmaticengineer.com/traveling-to-mongolia/",
+    "pubDate": "2025-11-21T13:47:17.000Z",
+    "contentSnippet": "A 30-person startup called Nasha Tech translated The Software Engineer's Guidebook for the benefit of their company and the Mongolian tech ecosystem.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "The Pulse: Cloudflare takes down half the internet – but shares a great postmortem",
+    "link": "https://blog.pragmaticengineer.com/the-pulse-cloudflare-takes-down-half-the-internet/",
+    "pubDate": "2025-11-20T20:36:19.000Z",
+    "contentSnippet": "A database permissions change ended up knocking Cloudflare’s proxy offline. Pinpointing the root cause was tricky – but Cloudflare shared a detailed postmortem. Also: announcing The Pragmatic Summit",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "\n        Ceilometer: Uber’s Adaptive Benchmarking Framework\n      ",
+    "link": "\n        https://www.uber.com/blog/ceilometer-ubers-adaptive-benchmarking-framework/\n      ",
+    "pubDate": "2025-11-20T14:00:00.000Z",
+    "contentSnippet": "Dig into Ceilometer, Uber’s adaptive benchmarking framework for ensuring system performance and reliability at scale. Learn how it automates performance testing while providing production-like insights and continuous validation.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "\n        Enhancing Uber’s Guidance Heatmap with Deep Probabilistic Models\n      ",
+    "link": "\n        https://www.uber.com/blog/enhancing-ubers-guidance-heatmap-with-deep-probabilistic-models/\n      ",
+    "pubDate": "2025-11-18T14:00:00.000Z",
+    "contentSnippet": "How does Uber forecast earnings for drivers? Our latest deep dive explores the probabilistic prediction models behind earnings insights in the Driver app, from dynamic heatmaps to trends and alerts.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "\n        I/O Observability for Uber’s Massive Petabyte-Scale Data Lake\n      ",
+    "link": "\n        https://www.uber.com/blog/i-o-observability-for-ubers-massive-petabyte-scale-data-lake/\n      ",
+    "pubDate": "2025-11-13T14:00:00.000Z",
+    "contentSnippet": "Learn how Uber powers real-time, petabyte-scale I/O observability for its data lake powering 2 million compute jobs.",
+    "categories": [
+      "\n        Backend\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Four years on writing a tech book: pitching to a publisher",
+    "link": "https://blog.pragmaticengineer.com/four-years-on-writing-a-tech-book-pitching-to-a-publisher/",
+    "pubDate": "2025-11-11T10:45:43.000Z",
+    "contentSnippet": "In 2019, I decided to write a book about software engineering. As an experienced software engineer and manager, I had the topic clear in my head, and assumed the whole project would take between six and 12 months in writing and publishing it.\nThe first proof copy of The Software",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "The Pulse: Amazon layoffs – AI or economy to blame?",
+    "link": "https://blog.pragmaticengineer.com/the-pulse-amazon-layoffs/",
+    "pubDate": "2025-11-06T16:40:34.000Z",
+    "contentSnippet": "Amazon is doing more mass layoffs, claiming it wants to be more nimble. But are job losses really about US economic fears, and how Amazon’s retail business will be affected?",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "\n        Building Zone Failure Resilience in Apache Pinot™ at Uber\n      ",
+    "link": "\n        https://www.uber.com/blog/building-zone-failure-resilience-in-apache-pinot-at-uber/\n      ",
+    "pubDate": "2025-11-06T14:00:00.000Z",
+    "contentSnippet": "By building zone failure resilience into Apache Pinot™, Uber strengthened reliability for real-time analytics, sped up release cycles, and created a foundation for future failure recovery. Now queries and ingestion stay strong, even when zones go dark.",
+    "categories": [
+      "\n        Data / ML\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Supercharging the ML and AI Development Experience at Netflix",
+    "link": "https://netflixtechblog.com/supercharging-the-ml-and-ai-development-experience-at-netflix-b2d5b95c63eb?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-11-04T20:33:44.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "metaflow",
+      "developer-tools",
+      "mlops",
+      "machine-learning",
+      "artificial-intelligence"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "Comparing interviews at 8 large tech companies",
+    "link": "https://blog.pragmaticengineer.com/comparing-interviews-at-8-large-tech-companies/",
+    "pubDate": "2025-10-30T18:00:42.000Z",
+    "contentSnippet": "Puneet Patwari applied to 8 major tech companies, and received 6 offers. He compares his interview experiences at Meta, Amazon, Uber, and 5 other workplaces",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "New trend: programming by kicking off parallel AI agents",
+    "link": "https://blog.pragmaticengineer.com/new-trend-programming-by-kicking-off-parallel-ai-agents/",
+    "pubDate": "2025-10-30T17:58:38.000Z",
+    "contentSnippet": "More devs are experimenting with kicking off coding agents in parallel",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "\n        Raising the Bar on ML Model Deployment Safety\n      ",
+    "link": "\n        https://www.uber.com/blog/raising-the-bar-on-ml-model-deployment-safety/\n      ",
+    "pubDate": "2025-10-30T13:00:00.000Z",
+    "contentSnippet": "How do you safely ship thousands of ML models without slowing teams down? At Uber, we’ve built guardrails that catch issues early, prevent rollbacks, and raise the bar on reliability. Discover how safety became a measurable standard across our ML ecosystem.",
+    "categories": [
+      "\n        Data / ML\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Post-Training Generative Recommenders with Advantage-Weighted Supervised Finetuning",
+    "link": "https://netflixtechblog.com/post-training-generative-recommenders-with-advantage-weighted-supervised-finetuning-61a538d717a9?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-10-25T22:01:00.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "reinforcement-learning",
+      "recommendations",
+      "ai",
+      "large-language-models"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "What caused the large AWS outage?",
+    "link": "https://blog.pragmaticengineer.com/aws-outage-us-east-1/",
+    "pubDate": "2025-10-23T16:26:27.000Z",
+    "contentSnippet": "On Monday, a major AWS outage hit thousands of sites & apps, and even a Premier League soccer game. An overview of what caused this high-profile, global outage",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "\n        Enabling Deep Model Explainability with Integrated Gradients at Uber\n      ",
+    "link": "\n        https://www.uber.com/blog/enabling-deep-model-explainability-with-integrated-gradients/\n      ",
+    "pubDate": "2025-10-23T13:00:00.000Z",
+    "contentSnippet": "Uber’s ML platform Michelangelo now supports Integrated Gradients, enabling scalable, interpretable deep model explainability across TensorFlow™ and PyTorch™. Learn how this powers trust, debugging, and decision-making throughout the ML life cycle.",
+    "categories": [
+      "\n        Engineering\n      "
+    ],
+    "source": "Uber Eng",
+    "sourceUrl": "https://www.uber.com"
+  },
+  {
+    "title": "Behind the Streams: Real-Time Recommendations for Live Events Part 3",
+    "link": "https://netflixtechblog.com/behind-the-streams-real-time-recommendations-for-live-events-e027cb313f8f?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-10-21T00:53:29.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "live-streaming",
+      "netflix",
+      "architecture",
+      "distributed-systems"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 1 — Ingesting and Processing Data…",
+    "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-1-ingesting-and-processing-data-80113e124acc?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-10-17T18:42:37.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "data-engineering",
+      "big-data",
+      "software-architecture"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "100X Faster: How We Supercharged Netflix Maestro’s Workflow Engine",
+    "link": "https://netflixtechblog.com/100x-faster-how-we-supercharged-netflix-maestros-workflow-engine-028e9637f041?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-09-29T16:10:40.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "distributed-systems",
+      "data",
+      "orchestration",
+      "machine-learning",
+      "workflow"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "Building a Resilient Data Platform with Write-Ahead Log at Netflix",
+    "link": "https://netflixtechblog.com/building-a-resilient-data-platform-with-write-ahead-log-at-netflix-127b6712359a?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-09-26T18:57:07.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "message-queue",
+      "software-architecture",
+      "database",
+      "distributed-systems",
+      "reliability"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "Scaling Muse: How Netflix Powers Data-Driven Creative Insights at Trillion-Row Scale",
+    "link": "https://netflixtechblog.com/scaling-muse-how-netflix-powers-data-driven-creative-insights-at-trillion-row-scale-aa9ad326fd77?source=rss----2615bd06b42e---4",
+    "pubDate": "2025-09-22T21:24:20.000Z",
+    "contentSnippet": "",
+    "categories": [
+      "druid",
+      "data-engineering",
+      "big-data"
+    ],
+    "source": "Netflix Tech",
+    "sourceUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4"
+  },
+  {
+    "title": "Creative ways to fund open source projects",
+    "link": "https://blog.pragmaticengineer.com/creative-ways-to-fund-open-source-projects/",
+    "pubDate": "2025-08-21T16:46:22.000Z",
+    "contentSnippet": "“Open source maintenance fee” trialed by Wix Toolset, while the creator of uv offers paid, enterprise-only features for larger companies.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "New trend: extreme hours at AI startups",
+    "link": "https://blog.pragmaticengineer.com/new-trend-extreme-hours-at-ai-startups/",
+    "pubDate": "2025-08-14T16:35:32.000Z",
+    "contentSnippet": "Pulling 80+ hour work weeks – including weekends – is becoming the norm across AI startups, and is unlikely to stop while AI is so hot.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "Cursor makes developers less effective?",
+    "link": "https://blog.pragmaticengineer.com/cursor-makes-developers-less-effective/",
+    "pubDate": "2025-07-24T18:09:09.000Z",
+    "contentSnippet": "A study into the workflows of experienced developers found that devs who use Cursor for bugfixes are around 19% slower than devs who use no AI tools at all. One possible takeaway is that AI tools can be harder work than we’re led to believe.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  },
+  {
+    "title": "The Pulse: Section 174 is reversed! Mostly, that is",
+    "link": "https://blog.pragmaticengineer.com/the-pulse-section-174-is-reversed-mostly-that-is/",
+    "pubDate": "2025-07-17T16:44:42.000Z",
+    "contentSnippet": "Finally, relief: tax regulation hurting the US tech industry is striked off for good - for the most part, that is.",
+    "categories": [],
+    "source": "Pragmatic Engineer",
+    "sourceUrl": "https://blog.pragmaticengineer.com/"
+  }
+]
