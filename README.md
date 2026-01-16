@@ -1,6 +1,8 @@
 # Tech Feed Aggregator
 
-A daily updated tech blog aggregator with a Hacker News (YC) style interface.
+[![Daily Feed Update](https://github.com/zviryatko/tech-feed/actions/workflows/daily-feed.yml/badge.svg)](https://github.com/zviryatko/tech-feed/actions/workflows/daily-feed.yml)
+
+A daily-updated aggregator that parses data from major engineering blogs (Cloudflare, Google, Uber, Netflix, InfoQ, Pragmatic Engineer, etc.) to provide a single, unified feed for easier access. Built with **Web Components** and **GitHub Actions**.
 
 ## Features
 - Aggregates posts from major tech blogs:
