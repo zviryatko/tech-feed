@@ -2,7 +2,7 @@
   {
     "title": "A Guide to Fine-Tuning FunctionGemma",
     "link": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the \"FunctionGemma Tuning Lab,\" a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.",
     "categories": [],
     "source": "Google Developers",
@@ -11,7 +11,7 @@
   {
     "title": "Under the Hood: Universal Commerce Protocol (UCP)",
     "link": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer surfaces (like Gemini and AI Mode in Search) with business backends, enabling seamless shopping from product discovery to purchase. UCP simplifies integration for businesses, supports various payment providers, and is designed to power the next generation of conversational commerce experiences.",
     "categories": [],
     "source": "Google Developers",
@@ -20,7 +20,7 @@
   {
     "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
     "link": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.",
     "categories": [],
     "source": "Google Developers",
@@ -29,7 +29,7 @@
   {
     "title": "Real-World Agent Examples with Gemini 3",
     "link": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterprise automation, and stateful agents with advanced memory. Clone the examples and start building today.",
     "categories": [],
     "source": "Google Developers",
@@ -38,7 +38,7 @@
   {
     "title": "Gemini 3 Flash is now available in Gemini CLI",
     "link": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency development tasks, handling complex code generation, large context windows (like processing 1,000 comment pull requests), and generating load-testing scripts quickly and reliably.",
     "categories": [],
     "source": "Google Developers",
@@ -47,7 +47,7 @@
   {
     "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
     "link": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.",
     "categories": [],
     "source": "Google Developers",
@@ -56,7 +56,7 @@
   {
     "title": "Conductor: Introducing context-driven development for Gemini CLI",
     "link": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.",
     "categories": [],
     "source": "Google Developers",
@@ -65,7 +65,7 @@
   {
     "title": "Developer’s guide to multi-agent patterns in ADK",
     "link": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).",
     "categories": [],
     "source": "Google Developers",
@@ -74,7 +74,7 @@
   {
     "title": "Introducing A2UI: An open project for agent-driven interfaces",
     "link": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), it offers a framework-agnostic solution to safely render remote agent UIs, with integrations in AG UI, Flutter's GenUI SDK, Opal, and Gemini Enterprise.",
     "categories": [],
     "source": "Google Developers",
@@ -83,7 +83,7 @@
   {
     "title": "Building agents with the ADK and the new Interactions API",
     "link": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent remote A2A agent via InteractionsApiTransport, allowing seamless expansion of multi-agent systems with minimal refactoring.",
     "categories": [],
     "source": "Google Developers",
@@ -92,7 +92,7 @@
   {
     "title": "Pick up exactly where you left off with Session Management in Gemini CLI",
     "link": "https://developers.googleblog.com/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Gemini CLI's new automatic **Session Management** (v0.20.0+) saves your conversation history, tool outputs, and reasoning, providing project-specific context. Resume easily using the **Interactive Session Browser** (`/resume`) or command-line flags (`--resume`). This feature ensures you never lose your work state, capturing prompts, tool execution details, and usage stats. Customize history with cleanup policies in `settings.json`.",
     "categories": [],
     "source": "Google Developers",
@@ -101,7 +101,7 @@
   {
     "title": "Don't Trust, Verify: Building End-to-End Confidential Applications on Google Cloud",
     "link": "https://developers.googleblog.com/dont-trust-verify-building-end-to-end-confidential-applications-on-google-cloud/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Google Cloud enables end-to-end confidential applications, protecting sensitive data 'in-use' with hardware isolation. The solution combines Confidential Space (TEE/attestation), Oak Functions (private sandbox), and Oak Session (attested end-to-end encryption for scale). This framework anchors user trust in open-source components, proving confidentiality for sensitive workloads like proprietary GenAI models, even when running behind untrusted load balancers.",
     "categories": [],
     "source": "Google Developers",
@@ -110,7 +110,7 @@
   {
     "title": "MediaTek NPU and LiteRT: Powering the next generation of on-device AI",
     "link": "https://developers.googleblog.com/mediatek-npu-and-litert-powering-the-next-generation-of-on-device-ai/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "LiteRT and MediaTek are announcing the new LiteRT NeuroPilot Accelerator. This is a ground-up successor for the TFLite NeuroPilot delegate, bringing seamless deployment experience, state-of-the-art LLM support, and advanced performance to millions of devices worldwide.",
     "categories": [],
     "source": "Google Developers",
@@ -119,7 +119,7 @@
   {
     "title": "Architecting efficient context-aware multi-agent framework for production",
     "link": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "ADK introduces **Context Engineering** to scale AI agents beyond large context windows. It treats context as a compiled view over a tiered, stateful system (**Session, Memory, Artifacts**). This architecture uses explicit processors for transformation, enables efficient compaction and caching, and allows for strict, scoped context handoffs in multi-agent workflows to ensure reliability and cost-effectiveness in production.",
     "categories": [],
     "source": "Google Developers",
@@ -128,7 +128,7 @@
   {
     "title": "Announcing the Data Commons Gemini CLI extension",
     "link": "https://developers.googleblog.com/announcing-the-data-commons-gemini-cli-extension/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "The new Data Commons extension for the Gemini CLI makes accessing public data easier. It allows users to ask complex, natural-language questions to query Data Commons' public datasets, grounding LLM responses in authoritative sources to reduce AI hallucinations. Data Commons is an organized library of public data from sources like the UN and World Bank. The extension enables instant data analysis, exploration, and integration with other data-related extensions.",
     "categories": [],
     "source": "Google Developers",
@@ -137,7 +137,7 @@
   {
     "title": "New Gemini API updates for Gemini 3",
     "link": "https://developers.googleblog.com/new-gemini-api-updates-for-gemini-3/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Gemini 3 is available via API with updates for developers: new `thinking_level` for depth control, `media_resolution` for multimodal processing, and enforced `Thought Signatures` for agentic workflows, especially with function calling and image generation. It also introduces combining Google Search/URL Grounding with Structured Outputs and new usage-based pricing for Grounding. Best practices, like using default temperature, are advised for optimal results.",
     "categories": [],
     "source": "Google Developers",
@@ -146,7 +146,7 @@
   {
     "title": "Unlocking Peak Performance on Qualcomm NPU with LiteRT",
     "link": "https://developers.googleblog.com/unlocking-peak-performance-on-qualcomm-npu-with-litert/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "LiteRT's new Qualcomm AI Engine Direct (QNN) Accelerator unlocks dedicated NPU power for on-device GenAI on Android. It offers a unified mobile deployment workflow, SOTA performance (up to 100x speedup over CPU), and full model delegation. This enables smooth, real-time AI experiences, with FastVLM-0.5B achieving over 11,000 tokens/sec prefill on Snapdragon 8 Elite Gen 5 NPU.",
     "categories": [],
     "source": "Google Developers",
@@ -155,7 +155,7 @@
   {
     "title": "Build with Google Antigravity, our new agentic development platform",
     "link": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Introducing Google Antigravity, a new agentic development platform for orchestrating code. It combines an AI-powered Editor View with a Manager Surface to deploy agents that autonomously plan, execute, and verify complex tasks across your editor, terminal, and browser. Agents communicate progress via Artifacts (screenshots, recordings) for easy verification. Available now in public preview.",
     "categories": [],
     "source": "Google Developers",
@@ -164,7 +164,7 @@
   {
     "title": "Building production AI on Google Cloud TPUs with JAX",
     "link": "https://developers.googleblog.com/building-production-ai-on-google-cloud-tpus-with-jax/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "The JAX AI Stack is a modular, industrial-grade, end-to-end machine learning platform built on the core JAX library, co-designed with Cloud TPUs. It features key components like JAX, Flax, Optax, and Orbax for foundational model development, plus an extended ecosystem for the full ML lifecycle and production. This integration provides a powerful, scalable foundation for AI development, delivering significant performance advantages.",
     "categories": [],
     "source": "Google Developers",
@@ -173,11 +173,93 @@
   {
     "title": "Building with Gemini 3 in Jules",
     "link": "https://developers.googleblog.com/jules-gemini-3/",
-    "pubDate": "2026-01-17T08:10:28.634Z",
+    "pubDate": "2026-01-18T08:10:41.613Z",
     "contentSnippet": "Jules, an always-on, multi-step software development agent, now features Gemini 3, offering clearer reasoning and better reliability. Recent improvements include parallel CLI runs, a stable API, and safer Git handling. Upcoming features include directory attachment without GitHub and automatic PR creation. Jules aims to reduce software writing overhead so developers can focus on building.",
     "categories": [],
     "source": "Google Developers",
     "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Hugging Face Releases FineTranslations, a Trillion-Token Multilingual Parallel Text Dataset",
+    "link": "https://www.infoq.com/news/2026/01/huggingface-fine-translations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-18T08:00:00.000Z",
+    "contentSnippet": "Hugging Face has released FineTranslations, a large-scale multilingual dataset containing more than 1 trillion tokens of parallel text across English and 500+ languages. The dataset was created by translating non-English content from the FineWeb2 corpus into English using Gemma3 27B, with the full data generation pipeline designed to be reproducible and publicly documented.\n By Robert Krzaczyński",
+    "categories": [
+      "Hugging Face",
+      "Large language models",
+      "Translation",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Android Studio Otter Boosts Agent Workflows and Adds LLM Flexibility",
+    "link": "https://www.infoq.com/news/2026/01/android-studio-otter-llm-flex/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-17T18:00:00.000Z",
+    "contentSnippet": "The latest Android Studio Otter feature drop introduces several new features that make it easier for developers to integrate AI-powered tools in their workflows, including the ability to set which LLM to use, enhanced agent mode through device interaction, support for natural language testing, and more.\n By Sergio De Simone",
+    "categories": [
+      "Android Studio",
+      "Mobile",
+      "Agents",
+      "Large Concept Models",
+      "Android",
+      "Google",
+      "IDE",
+      "AI, ML & Data Engineering",
+      "Development",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Data Poisoning in Machine Learning: Why and How People Manipulate Training Data",
+    "link": "https://towardsdatascience.com/data-poisoning-in-machine-learning-why-and-how-people-manipulate-training-data/",
+    "pubDate": "2026-01-17T15:00:00.000Z",
+    "contentSnippet": "Do you know where your data has been?\nThe post Data Poisoning in Machine Learning: Why and How People Manipulate Training Data appeared first on Towards Data Science.",
+    "categories": [
+      "Machine Learning",
+      "Ai Safety",
+      "Artificial Intelligence",
+      "Data Poisoning",
+      "Editors Pick",
+      "Training Data"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "A Geometric Method to Spot Hallucinations Without an LLM Judge",
+    "link": "https://towardsdatascience.com/the-red-bird/",
+    "pubDate": "2026-01-17T13:00:00.000Z",
+    "contentSnippet": "Imagine a flock of birds in flight. There’s no leader. No central command. Each bird aligns with its neighbors—matching direction, adjusting speed, maintaining coherence through purely local coordination. The result is global order emerging from local consistency. Now imagine one bird flying with the same conviction as the others. Its wingbeats are confident. Its speed […]\nThe post A Geometric Method to Spot Hallucinations Without an LLM Judge appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Ai Hallucination",
+      "Artificial Intelligence",
+      "Llm",
+      "Llm Applications",
+      "Machine Learning"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Cloudflare Automates Salt Configuration Management Debugging, Reducing Release Delays",
+    "link": "https://www.infoq.com/news/2026/01/cloudflare-salt-configuration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-17T09:30:00.000Z",
+    "contentSnippet": "Cloudflare recently shared how it manages its huge global fleet with SaltStack (Salt). They discussed the engineering tasks needed for the \"grain of sand\" problem. This concern is about finding one configuration error among millions of state applications. Cloudflare’s Site Reliability Engineering (SRE) team redesigned their configuration observability.\n By Claudio Masolo",
+    "categories": [
+      "Release Management",
+      "Cloudflare",
+      "Configuration Management",
+      "DevOps",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
   },
   {
     "title": "Pulumi Adds Native Support for Terraform and HCL",
@@ -650,58 +732,6 @@
     "sourceUrl": "https://towardsdatascience.com/"
   },
   {
-    "title": "How Agoda Unified Multiple Data Pipelines into a Single Source of Truth",
-    "link": "https://www.infoq.com/news/2026/01/agoda-unified-data-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T11:30:00.000Z",
-    "contentSnippet": "Agoda recently described how it consolidated multiple independent data pipelines into a centralized Apache Spark-based platform to eliminate inconsistencies in financial data. The company implemented a multi-layered quality framework that combines automated validations, machine-learning-based anomaly detection, and data contracts, while processing millions of daily booking transactions.\n By Eran Stiller",
-    "categories": [
-      "Enterprise Architecture",
-      "Data Pipelines",
-      "Reference Architecture",
-      "Apache Spark",
-      "AI, ML & Data Engineering",
-      "Architecture & Design",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "AI-Powered Code Editor Cursor Introduces Dynamic Context Discovery to Improve Token-Efficiency",
-    "link": "https://www.infoq.com/news/2026/01/cursor-dynamic-context-discovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T11:00:00.000Z",
-    "contentSnippet": "Cursor introduced a new approach to minimize the context size of requests sent to large language models. Called dynamic context discovery, this method moves away from including large amounts of static context upfront, allowing the agent to dynamically retrieve only the information it needs. This reduces token usage and limits the inclusion of potentially confusing or irrelevant details.\n By Sergio De Simone",
-    "categories": [
-      "Model Context Protocol (MCP)",
-      "Agents",
-      "Prompt Engineering",
-      "Large language models",
-      "IDE",
-      "AI, ML & Data Engineering",
-      "Development",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Vercel Open-Sources Bash Tool for Context Retrieval Using Local Filesystems",
-    "link": "https://www.infoq.com/news/2026/01/vercel-bash-tool/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T10:56:00.000Z",
-    "contentSnippet": "Vercel has open-sourced bash-tool that provides a Bash execution engine for AI agents, enabling them to run filesystem-based commands to retrieve context for model prompts.\n By Daniel Dominguez",
-    "categories": [
-      "Agents",
-      "Artificial Intelligence",
-      "Cloud Computing",
-      "Software Development",
-      "Large language models",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
     "title": "What came first: the CNAME or the A record?",
     "link": "https://blog.cloudflare.com/cname-a-record-order-dns-standards/",
     "pubDate": "2026-01-14T00:00:00.000Z",
@@ -819,38 +849,6 @@
     ],
     "source": "Cloudflare",
     "sourceUrl": "https://blog.cloudflare.com"
-  },
-  {
-    "title": "How AI Can Become Your Personal Language Tutor",
-    "link": "https://towardsdatascience.com/how-ai-can-become-your-personal-language-tutor/",
-    "pubDate": "2026-01-12T16:30:00.000Z",
-    "contentSnippet": "How I used n8n to build AI study partners for learning Mandarin: vocabulary, listening, and pronunciation correction.\nThe post How AI Can Become Your Personal Language Tutor appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "AI",
-      "Data Science",
-      "Language",
-      "n8n",
-      "Productivity"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Why 90% Accuracy in Text-to-SQL is 100% Useless",
-    "link": "https://towardsdatascience.com/why-90-accuracy-in-text-to-sql-is-100-useless/",
-    "pubDate": "2026-01-12T15:00:00.000Z",
-    "contentSnippet": "The eternal promise of self-service analytics\nThe post Why 90% Accuracy in Text-to-SQL is 100% Useless appeared first on Towards Data Science.",
-    "categories": [
-      "Large Language Models",
-      "Data Science",
-      "Editors Pick",
-      "Llm",
-      "Machine Learning",
-      "text-to-sql"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
   },
   {
     "title": "The grief when AI writes most of the code",
