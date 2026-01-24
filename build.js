@@ -29,19 +29,52 @@ const FEEDS = [
     { label: 'Towards Data Science', url: 'https://towardsdatascience.com/feed/' }
 ];
 
-async function fetchFeed(feedDef) {
+async function getExistingDates() {
+    try {
+        if (await fs.pathExists('public/feed.json')) {
+            const data = await fs.readJson('public/feed.json');
+            return data.reduce((acc, item) => {
+                if (item.link && item.pubDate) {
+                    acc[item.link] = new Date(item.pubDate);
+                }
+                return acc;
+            }, {});
+        }
+    } catch (err) {
+        console.warn('Could not read existing feed.json', err);
+    }
+    return {};
+}
+
+async function fetchFeed(feedDef, existingDates = {}) {
     try {
         const feed = await parser.parseURL(feedDef.url);
         console.log(`Fetched ${feedDef.label}: ${feed.items.length} items`);
-        return feed.items.map(item => ({
-            title: item.title,
-            link: item.link,
-            pubDate: item.pubDate ? new Date(item.pubDate) : new Date(),
-            contentSnippet: item.contentSnippet || item.content || '',
-            categories: item.categories || [],
-            source: feedDef.label,
-            sourceUrl: feed.link
-        }));
+        return feed.items.map(item => {
+            let pubDate;
+            if (item.pubDate) {
+                pubDate = new Date(item.pubDate);
+            }
+
+            // If date is invalid or missing, check existing dates
+            if (!pubDate || isNaN(pubDate.getTime())) {
+                if (existingDates[item.link]) {
+                    pubDate = existingDates[item.link];
+                } else {
+                    pubDate = new Date(); // Only default to now if truly new
+                }
+            }
+
+            return {
+                title: item.title,
+                link: item.link,
+                pubDate: pubDate,
+                contentSnippet: item.contentSnippet || item.content || '',
+                categories: item.categories || [],
+                source: feedDef.label,
+                sourceUrl: feed.link
+            };
+        });
     } catch (err) {
         console.error(`Error fetching ${feedDef.label}:`, err.message);
         return [];
@@ -50,7 +83,8 @@ async function fetchFeed(feedDef) {
 
 async function build() {
     console.log('Starting feed fetch...');
-    const allProms = FEEDS.map(fetchFeed);
+    const existingDates = await getExistingDates();
+    const allProms = FEEDS.map(f => fetchFeed(f, existingDates));
     const results = await Promise.all(allProms);
 
     // Flatten items

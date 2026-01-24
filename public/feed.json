@@ -1,5 +1,635 @@
 [
   {
+    "title": "A Guide to Fine-Tuning FunctionGemma",
+    "link": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
+    "pubDate": "2026-01-24T17:43:23.066Z",
+    "contentSnippet": "FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the \"FunctionGemma Tuning Lab,\" a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.",
+    "categories": [],
+    "source": "Google Developers",
+    "sourceUrl": "https://developers.googleblog.com/rss/"
+  },
+  {
+    "title": "Google’s Universal Commerce Protocol (UCP) Powers Agentic Shopping",
+    "link": "https://www.infoq.com/news/2026/01/google-ucp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-24T16:50:00.000Z",
+    "contentSnippet": "Google has launched the Universal Commerce Protocol (UCP), an open-source standard designed to enhance commerce on AI-powered platforms. UCP creates a common language for agentic shopping, enabling seamless interactions among consumers, businesses, and payment providers.\n By Robert Krzaczyński",
+    "categories": [
+      "Agent Communication Protocol",
+      "Google",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "How to Build a Neural Machine Translation System for a Low-Resource Language",
+    "link": "https://towardsdatascience.com/how-to-build-a-neural-machine-translation-system-for-a-low-resource-language/",
+    "pubDate": "2026-01-24T15:00:00.000Z",
+    "contentSnippet": "An introduction to neural machine translation\nThe post How to Build a Neural Machine Translation System for a Low-Resource Language appeared first on Towards Data Science.",
+    "categories": [
+      "Machine Learning",
+      "Data Science",
+      "Deep Dives",
+      "Machine Translation",
+      "NLP",
+      "Python"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Air for Tomorrow: Mapping the Digital Air-Quality Landscape, from Repositories and Data Types to Starter Code",
+    "link": "https://towardsdatascience.com/air-for-tomorrow-mapping-the-digital-air-quality-landscape-repositories-data-types-starter-code/",
+    "pubDate": "2026-01-24T13:00:00.000Z",
+    "contentSnippet": "Understand air quality: access the available data, interpret data types, and execute starter codes\nThe post Air for Tomorrow: Mapping the Digital Air-Quality Landscape, from Repositories and Data Types to Starter Code appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Air Quality",
+      "Eda",
+      "Geospatial",
+      "Open Source",
+      "Python"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Expired Oracle Patent Opens Fast Sorting Algorithm to Open Source Databases",
+    "link": "https://www.infoq.com/news/2026/01/oracle-patent-sorting-databases/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-24T07:00:00.000Z",
+    "contentSnippet": "A recent article reports that an Oracle patent on a fast sorting method has expired, allowing open source databases to use it freely. Mark Callaghan, the inventor behind the sorting algorithm, shows how this 20-year-old approach can speed up sorting similar data and could make database systems faster and more efficient.\n By Renato Losio",
+    "categories": [
+      "Database",
+      "Relational Databases",
+      "Open Source",
+      "Oracle",
+      "Algorithms",
+      "Development",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Ramp Builds Internal Coding Agent That Powers 30% of Engineering Pull Requests",
+    "link": "https://www.infoq.com/news/2026/01/ramp-coding-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T18:00:00.000Z",
+    "contentSnippet": "Ramp has shared the architecture of Inspect. This internal coding agent has quickly reached about 30% adoption for merged pull requests in the company’s frontend and backend repositories. The fintech company shared a detailed technical specification. It explains how they created a system that gives AI agents the same access to the development environment as human engineers.\n By Claudio Masolo",
+    "categories": [
+      "Platforms",
+      "AI Development",
+      "Agents",
+      "Development",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Optimizing Data Transfer in Distributed AI/ML Training Workloads",
+    "link": "https://towardsdatascience.com/optimizing-data-transfer-in-distributed-ai-ml-training-workloads/",
+    "pubDate": "2026-01-23T16:30:00.000Z",
+    "contentSnippet": "A deep dive on data transfer bottlenecks, their identification, and their resolution with the help of NVIDIA Nsight™ Systems – part 3\nThe post Optimizing Data Transfer in Distributed AI/ML Training Workloads appeared first on Towards Data Science.",
+    "categories": [
+      "Data Engineering",
+      "Artificial Intelligence",
+      "Deep Dives",
+      "Deep Learning",
+      "Nvidia Gpu",
+      "Pytorch"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "VoidZero Announces Oxfmt Alpha with Rust-Powered Performance and Prettier Compatibility",
+    "link": "https://www.infoq.com/news/2026/01/oxfmt-rust-prettier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T16:00:00.000Z",
+    "contentSnippet": "VoidZero has unveiled Oxfmt, a cutting-edge Rust-based code formatter that offers over 30x faster performance than Prettier for JavaScript and TypeScript projects. Compatible with existing Prettier configurations, Oxfmt addresses developer needs for efficiency and style consistency. Enjoy seamless migration, enhanced capabilities, and a commitment to community-driven improvements.\n By Daniel Curtis",
+    "categories": [
+      "Rust",
+      "JavaScript",
+      "Web Development",
+      "React",
+      "Vue.js",
+      "ESLint",
+      "Performance",
+      "TypeScript",
+      "Development",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Presentation: Kraken's Serverless Architecture for Keeping the Grid Green",
+    "link": "https://www.infoq.com/presentations/integrating-renewable-energy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T15:15:00.000Z",
+    "contentSnippet": "Kevin Bowman shares how Kraken Technology balances the UK’s 30GW energy grid using renewable sources. He discusses an architectural blueprint leveraging AWS Lambda, EventBridge, and DynamoDB to manage grid-scale batteries and virtual power plants. Learn how they solve millisecond-latency frequency response and 24-hour predictive optimization to keep the lights on through a serverless stack.\n By Kevin Bowman",
+    "categories": [
+      "QCon London 2025",
+      "Transcripts",
+      "Green Software",
+      "Culture & Methods",
+      "presentation"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "DoorDash Applies AI to Safety Across Chat and Calls, Cutting Incidents by 50%",
+    "link": "https://www.infoq.com/news/2026/01/doordash-safechat-ai-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T15:00:00.000Z",
+    "contentSnippet": "DoorDash deploys SafeChat, an AI-driven safety system for moderating chat, images, and voice calls between Dashers and customers. Using a layered text moderation architecture, machine learning models, and human review, SafeChat detects unsafe content in real time, enabling immediate actions and reducing low- and medium-severity safety incidents by roughly 50 percent.\n By Leela Kumili",
+    "categories": [
+      "Platforms",
+      "Machine Learning",
+      "Safety",
+      "ChatBots",
+      "Architecture",
+      "Large language models",
+      "Evolutionary Architecture",
+      "Architecture & Design",
+      "Development",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Achieving 5x Agentic Coding Performance with Few-Shot Prompting",
+    "link": "https://towardsdatascience.com/5x-agentic-coding-performance-with-few-shot-prompting/",
+    "pubDate": "2026-01-23T15:00:00.000Z",
+    "contentSnippet": "Learn to leverage few-shot prompting to increase your LLMs performance\nThe post Achieving 5x Agentic Coding Performance with Few-Shot Prompting appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "AI Agents",
+      "Few Shot Learning",
+      "Few Shot Prompting",
+      "Llm",
+      "Llm Agent"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Route leak incident on January 22, 2026",
+    "link": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
+    "pubDate": "2026-01-23T14:00:00.000Z",
+    "contentSnippet": "An automated routing policy configuration error caused us to leak some Border Gateway Protocol prefixes unintentionally from a router at our Miami data center. We discuss the impact and the changes we are implementing as a result.",
+    "categories": [
+      "BGP",
+      "Post Mortem"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
+    "title": "Why the Sophistication of Your Prompt Correlates Almost Perfectly with the Sophistication of the Response, as Research by Anthropic Found",
+    "link": "https://towardsdatascience.com/the-sophistication-of-your-prompt-correlates-almost-perfectly-with-the-sophistication-of-the-response-anthropic-study-found/",
+    "pubDate": "2026-01-23T13:30:00.000Z",
+    "contentSnippet": "How prompt engineering has evolved, examined scientifically; and implications for the future of conversational AI tools\nThe post Why the Sophistication of Your Prompt Correlates Almost Perfectly with the Sophistication of the Response, as Research by Anthropic Found appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Artificial Intelligence",
+      "Editors Pick",
+      "Machine Learning",
+      "Prompt Engineering",
+      "Reasoning"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "OpenCost Looks Back on 2025 Milestones and Charts a Roadmap for 2026",
+    "link": "https://www.infoq.com/news/2026/01/opencost-roadmap-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T12:00:00.000Z",
+    "contentSnippet": "The OpenCost project, an open-source cost and resource management tool hosted by the Cloud Native Computing Foundation (CNCF), has published a year-in-review reflecting on its progress in 2025 and outlining priorities for 2026.\n By Craig Risi",
+    "categories": [
+      "Linux",
+      "Open Source",
+      "Cloud Computing",
+      "Cloud Native Computing Foundation",
+      "DevOps",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "From Transactions to Trends: Predict When a Customer Is About to Stop Buying",
+    "link": "https://towardsdatascience.com/from-transactions-to-trends-predict-when-a-customer-is-about-to-stop-buying/",
+    "pubDate": "2026-01-23T12:00:00.000Z",
+    "contentSnippet": "Customer churn is usually a gradual process, not a sudden event. In this post, we analyze monthly transaction trends and convert regression slopes into degrees to clearly identify declining purchase behavior. A small negative slope today can prevent a big revenue loss tomorrow.\nThe post From Transactions to Trends: Predict When a Customer Is About to Stop Buying appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Churn Analysis",
+      "Data Analysis",
+      "Linear Regression",
+      "Python",
+      "Statistics"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Mini book: Architecture in the Age of AI: Change and Opportunity",
+    "link": "https://www.infoq.com/minibooks/architecture-age-ai-opportunity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T11:00:00.000Z",
+    "contentSnippet": "This eMag is designed to bring together insights from industry practitioners to explore how architecture can evolve in the era of AI. From rethinking platforms, automation practices and embracing decentralized decision-making to redefining the architect’s role as coach and enabler, the contributions here highlight strategies for navigating technical and organizational challenges.\n By InfoQ",
+    "categories": [
+      "Platforms",
+      "Emergent Architecture",
+      "Sociotechnical Architecture",
+      "Artificial Intelligence",
+      "AI Architecture",
+      "Training / Certification",
+      "Architecture & Design",
+      "AI, ML & Data Engineering",
+      "minibook"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Podcast: Culture Through Tension: Leading Interdisciplinary Teams with Nick Gillian",
+    "link": "https://www.infoq.com/podcasts/leading-interdisciplinary-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-23T09:00:00.000Z",
+    "contentSnippet": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Nick Gillian about building cross-functional teams for physical AI innovation, growing engineering culture through positive tensions, and navigating the journey from technical execution to organizational influence.\n By Nick Gillian",
+    "categories": [
+      "Social Skills",
+      "Engineering Culture Podcast",
+      "Code Quality",
+      "Leadership",
+      "Coaching and Mentoring",
+      "Teamwork",
+      "Management",
+      "Culture",
+      "Culture & Methods",
+      "podcast"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "TDS Newsletter: Beyond Prompt Engineering: The New Frontiers of LLM Optimization",
+    "link": "https://towardsdatascience.com/tds-newsletter-beyond-prompt-engineering-the-new-frontiers-of-llm-optimization/",
+    "pubDate": "2026-01-22T22:17:00.000Z",
+    "contentSnippet": "Let's zoom in on recent approaches that push AI-powered workflows to the next level\nThe post TDS Newsletter: Beyond Prompt Engineering: The New Frontiers of LLM Optimization appeared first on Towards Data Science.",
+    "categories": [
+      "The Variable",
+      "Artificial Intelligence",
+      "Llm",
+      "Prompt Engineering",
+      "Tds Features"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Open Payment Standard x402 Expands Capabilities in Major Upgrade",
+    "link": "https://www.infoq.com/news/2026/01/x402-agentic-http-payments/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-22T19:00:00.000Z",
+    "contentSnippet": "After six months of real-world usage, the open payment standard x402 has received a major update, extending the protocol beyond single-request, exact-amount payments. The release adds support for wallet-based identity, automatic API discovery, dynamic payment recipients, expanded multi-chain and fiat support via CAIP standards, and a fully modular SDK for custom networks and payment schemes.\n By Sergio De Simone",
+    "categories": [
+      "Cloud",
+      "Artificial Intelligence",
+      "HTTP",
+      "Agents",
+      "Cloudflare",
+      "Development",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Evaluating Multi-Step LLM-Generated Content: Why Customer Journeys Require Structural Metrics",
+    "link": "https://towardsdatascience.com/evaluating-multi-step-llm-generated-content-why-customer-journeys-require-structural-metrics/",
+    "pubDate": "2026-01-22T16:30:00.000Z",
+    "contentSnippet": "How to evaluate goal-oriented content designed to build engagement and deliver business results, and why structure matters.\nThe post Evaluating Multi-Step LLM-Generated Content: Why Customer Journeys Require Structural Metrics appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Customer Journey",
+      "Editors Pick",
+      "Llm Evaluation",
+      "Metrics And Analytics",
+      "Natural Language Processing"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Why SaaS Product Management Is the Best Domain for Data-Driven Professionals in 2026",
+    "link": "https://towardsdatascience.com/why-saas-product-management-is-the-best-domain-for-data-driven-professionals-in-2026/",
+    "pubDate": "2026-01-22T15:00:00.000Z",
+    "contentSnippet": "How I use analytics, automation, and AI to build better SaaS \nThe post Why SaaS Product Management Is the Best Domain for Data-Driven Professionals in 2026 appeared first on Towards Data Science.",
+    "categories": [
+      "Product Management",
+      "Artificial Intelligence",
+      "Automation",
+      "Deep Dives",
+      "Project Management",
+      "SaaS"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Stop Writing Messy Boolean Masks: 10 Elegant Ways to Filter Pandas DataFrames",
+    "link": "https://towardsdatascience.com/stop-writing-messy-boolean-masks-10-elegant-ways-to-filter-pandas-dataframes/",
+    "pubDate": "2026-01-22T13:30:00.000Z",
+    "contentSnippet": "Master the art of readable, high-performance data selection using .query(), .isin(), and advanced vectorized logic.\nThe post Stop Writing Messy Boolean Masks: 10 Elegant Ways to Filter Pandas DataFrames appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Data Analytics",
+      "Pandas",
+      "Pandas Dataframe",
+      "Programming",
+      "Python"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "What Other Industries Can Learn from Healthcare’s Knowledge Graphs",
+    "link": "https://towardsdatascience.com/what-other-industries-can-learn-from-healthcares-knowledge-graphs/",
+    "pubDate": "2026-01-22T12:00:00.000Z",
+    "contentSnippet": "How shared meaning, evidence, and standards create durable semantic infrastructure\nThe post What Other Industries Can Learn from Healthcare’s Knowledge Graphs appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Artificial Intelligence",
+      "Data Governance",
+      "Enterprise Data",
+      "Knowledge Graphs",
+      "Semantic Layer"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "European Initiative for Data Sovereignty Released a Trust Framework",
+    "link": "https://www.infoq.com/news/2026/01/data-sovereignty-trust-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-22T11:47:00.000Z",
+    "contentSnippet": "The Danube release of the Gaia-X trust framework provides mechanisms for the automation of compliance and supports interoperability across sectors and geographies to ensure trusted data transactions and service interactions. The Gaia-X Summit 2025 hosted facilitated discussions on AI and data sovereignty, and presented data space solutions that support innovation across Europe and beyond.\n By Ben Linders",
+    "categories": [
+      "Open Source",
+      "Eclipse",
+      "Data Governance",
+      "Sovereignty",
+      "Community News",
+      "Data Access",
+      "Compliance",
+      "Innovation",
+      "Collaboration",
+      "Data",
+      "Standardization",
+      "Trust",
+      "AI, ML & Data Engineering",
+      "Culture & Methods",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "AWS Launches European Sovereign Cloud amid Questions about U.S. Legal Jurisdiction",
+    "link": "https://www.infoq.com/news/2026/01/aws-european-sovereign-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-22T10:19:00.000Z",
+    "contentSnippet": "AWS has launched its European Sovereign Cloud with a €7.8 billion investment, designed to meet EU regulatory demands and address data privacy concerns amid geopolitical tensions. Despite its operational separation from global regions, questions linger about legal protections against U.S. data access. Competitors like Microsoft and local providers may present stronger sovereignty options.\n By Steef-Jan Wiggers",
+    "categories": [
+      "Cloud",
+      "Amazon",
+      "Governance",
+      "Regulation",
+      "Legal Matters",
+      "Sovereignty",
+      "Amazon Web Services",
+      "Data Privacy",
+      "AWS",
+      "Architecture & Design",
+      "Development",
+      "DevOps",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Google Trends is Misleading You: How to Do Machine Learning with Google Trends Data",
+    "link": "https://towardsdatascience.com/google-trends-is-misleading-you-how-to-do-machine-learning-with-google-trends-data/",
+    "pubDate": "2026-01-21T16:30:00.000Z",
+    "contentSnippet": "Google Trends is one of the most widely used tools for analysing human behaviour at scale. Journalists use it. Data scientists use it. Entire papers are built on it. But there is a fundamental property of Google Trends data that makes it very easy to misuse, especially if you are working with time series or trying to build models, and most people never realise they are doing it.\nThe post Google Trends is Misleading You: How to Do Machine Learning with Google Trends Data appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Data Cleaning",
+      "Editors Pick",
+      "Google Trends",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Presentation: How to Unlock Insights and Enable Discovery Within Petabytes of Autonomous Driving Data",
+    "link": "https://www.infoq.com/presentations/autonomous-driving-data/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-21T15:13:00.000Z",
+    "contentSnippet": "Kyra Mozley discusses the evolution of autonomous vehicle perception, moving beyond expensive manual labeling to an embedding-first architecture. She explains how to leverage foundation models like CLIP and SAM for auto-labeling, RAG-inspired search, and few-shot adapters. This talk provides engineering leaders a blueprint for building modular, scalable vision systems that thrive on edge cases.\n By Kyra Mozley",
+    "categories": [
+      "Machine Learning",
+      "QCon London 2025",
+      "Transcripts",
+      "Case Study",
+      "AI, ML & Data Engineering",
+      "presentation"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "If You Want to Become a Data Scientist in 2026, Do This",
+    "link": "https://towardsdatascience.com/why-most-people-struggle-to-get-data-science-jobs-in-2026/",
+    "pubDate": "2026-01-21T15:00:00.000Z",
+    "contentSnippet": "Learn from my mistakes and fast track your data science career\nThe post If You Want to Become a Data Scientist in 2026, Do This appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Career Advice",
+      "Data Science Careers",
+      "Data Science Interview",
+      "Job Search",
+      "Resume"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Building a Self-Healing Data Pipeline That Fixes Its Own Python Errors",
+    "link": "https://towardsdatascience.com/building-a-self-healing-data-pipeline-that-fixes-its-own-python-errors/",
+    "pubDate": "2026-01-21T13:30:00.000Z",
+    "contentSnippet": "How I built a self-healing pipeline that automatically fixes bad CSVs, schema changes, and weird delimiters.\nThe post Building a Self-Healing Data Pipeline That Fixes Its Own Python Errors appeared first on Towards Data Science.",
+    "categories": [
+      "LLM Applications",
+      "Artificial Intelligence",
+      "Data Science",
+      "Llm",
+      "Machine Learning",
+      "Programming"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "A Case for the T-statistic",
+    "link": "https://towardsdatascience.com/a-case-for-the-t-statistic/",
+    "pubDate": "2026-01-21T12:00:00.000Z",
+    "contentSnippet": "And how it compares to the run-of-the-mill z-score\nThe post A Case for the T-statistic appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Data Visualization",
+      "Deep Dives",
+      "Machine Learning",
+      "Python",
+      "Statistics"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Article Series - AI Assisted Development: Real World Patterns, Pitfalls, and Production Readiness",
+    "link": "https://www.infoq.com/articles/ai-assisted-development-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-21T09:00:00.000Z",
+    "contentSnippet": "In this series, we examine what happens after the proof of concept and how AI becomes part of the software delivery pipeline. As AI transitions from proof of concept to production, teams are discovering that the challenge extends beyond model performance to include architecture, process, and accountability. This transition is redefining what constitutes good software engineering.\n By Arthur Casals",
+    "categories": [
+      "Machine Learning",
+      "MLOps",
+      "Agent2Agent",
+      "Artificial Intelligence",
+      "Software Development",
+      "Agents",
+      "Large language models",
+      "Article Series",
+      "Development",
+      "AI, ML & Data Engineering",
+      "article"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "How CyberArk Protects AI Agents with Instruction Detectors and History-Aware Validation",
+    "link": "https://www.infoq.com/news/2026/01/cyberark-agents-defenses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "pubDate": "2026-01-20T20:00:00.000Z",
+    "contentSnippet": "To prevent agents from obeying malicious instructions hidden in external data, all text entering an agent's context must be treated as untrusted, says Niv Rabin, principal software architect at AI-security firm CyberArk. His team developed an approach based on instruction detection and history-aware validation to protect against both malicious input data and context-history poisoning.\n By Sergio De Simone",
+    "categories": [
+      "Application Security",
+      "Prompt Engineering",
+      "Agents",
+      "Large language models",
+      "AI, ML & Data Engineering",
+      "news"
+    ],
+    "source": "InfoQ",
+    "sourceUrl": "https://www.infoq.com"
+  },
+  {
+    "title": "Does Calendar-Based Time-Intelligence Change Custom Logic?",
+    "link": "https://towardsdatascience.com/does-calendar-based-time-intelligence-change-custom-logic/",
+    "pubDate": "2026-01-20T16:30:00.000Z",
+    "contentSnippet": "Let's look at calculating the moving average over time\nThe post Does Calendar-Based Time-Intelligence Change Custom Logic? appeared first on Towards Data Science.",
+    "categories": [
+      "Data Science",
+      "Data Analyitcs",
+      "Dax",
+      "Dax Tutorial",
+      "Power Bi",
+      "Time Intelligence"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "How to Perform Large Code Refactors in Cursor",
+    "link": "https://towardsdatascience.com/how-to-perform-large-code-refactors-in-cursor/",
+    "pubDate": "2026-01-20T15:00:00.000Z",
+    "contentSnippet": "Learn how to perform code refactoring with LLMs\nThe post How to Perform Large Code Refactors in Cursor appeared first on Towards Data Science.",
+    "categories": [
+      "Agentic AI",
+      "Code Architecture",
+      "Code Refactoring",
+      "Llm",
+      "LLM Agents",
+      "Programming"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "You Probably Don’t  Need a Vector Database for Your RAG — Yet",
+    "link": "https://towardsdatascience.com/you-probably-dont-need-a-vector-database-for-your-rag-yet/",
+    "pubDate": "2026-01-20T13:30:00.000Z",
+    "contentSnippet": "Numpy or SciKit-Learn might meet all your retrieval needs\nThe post You Probably Don’t  Need a Vector Database for Your RAG — Yet appeared first on Towards Data Science.",
+    "categories": [
+      "Large Language Models",
+      "Artificial Intelligence",
+      "Deep Dives",
+      "Python",
+      "Rag",
+      "Vector Database"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Why Package Installs Are Slow (And How to Fix It)",
+    "link": "https://towardsdatascience.com/why-package-installs-are-slow-and-how-to-fix-it/",
+    "pubDate": "2026-01-20T12:00:00.000Z",
+    "contentSnippet": "How sharded indexing patterns solve a scaling problem in package management\nThe post Why Package Installs Are Slow (And How to Fix It) appeared first on Towards Data Science.",
+    "categories": [
+      "Data Engineering",
+      "Conda",
+      "Metadata",
+      "Package Management",
+      "Programming",
+      "Sharding"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "Bridging the Gap Between Research and Readability with Marco Hening Tallarico",
+    "link": "https://towardsdatascience.com/bridging-the-gap-between-research-and-readability-with-marco-hening-tallarico/",
+    "pubDate": "2026-01-19T16:30:00.000Z",
+    "contentSnippet": "Diluting complex research, spotting silent data leaks, and why the best way to learn is often backwards.\nThe post Bridging the Gap Between Research and Readability with Marco Hening Tallarico appeared first on Towards Data Science.",
+    "categories": [
+      "Author Spotlights",
+      "Artificial Intelligence",
+      "Data Science",
+      "Machine Learning",
+      "Writing"
+    ],
+    "source": "Towards Data Science",
+    "sourceUrl": "https://towardsdatascience.com/"
+  },
+  {
+    "title": "How we mitigated a vulnerability in Cloudflare’s ACME validation logic",
+    "link": "https://blog.cloudflare.com/acme-path-vulnerability/",
+    "pubDate": "2026-01-19T14:00:00.000Z",
+    "contentSnippet": "A vulnerability was recently identified in Cloudflare’s automation of certificate validation. Here we explain the vulnerability and outline the steps we’ve taken to mitigate it.",
+    "categories": [
+      "Vulnerabilities",
+      "WAF",
+      "Security",
+      "Network Services"
+    ],
+    "source": "Cloudflare",
+    "sourceUrl": "https://blog.cloudflare.com"
+  },
+  {
     "title": "Under the Hood: Universal Commerce Protocol (UCP)",
     "link": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
     "pubDate": "2026-01-16T16:56:20.297Z",
@@ -36,19 +666,19 @@
     "sourceUrl": "https://developers.googleblog.com/rss/"
   },
   {
-    "title": "Conductor: Introducing context-driven development for Gemini CLI",
-    "link": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
+    "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
+    "link": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
     "pubDate": "2026-01-16T16:56:20.297Z",
-    "contentSnippet": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.",
+    "contentSnippet": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.",
     "categories": [],
     "source": "Google Developers",
     "sourceUrl": "https://developers.googleblog.com/rss/"
   },
   {
-    "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
-    "link": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
+    "title": "Conductor: Introducing context-driven development for Gemini CLI",
+    "link": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
     "pubDate": "2026-01-16T16:56:20.297Z",
-    "contentSnippet": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.",
+    "contentSnippet": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for \"brownfield\" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.",
     "categories": [],
     "source": "Google Developers",
     "sourceUrl": "https://developers.googleblog.com/rss/"
@@ -171,98 +801,12 @@
     "sourceUrl": "https://developers.googleblog.com/rss/"
   },
   {
-    "title": "Building AI Agents with Google Gemini 3 and Open Source Frameworks",
-    "link": "https://developers.googleblog.com/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/",
-    "pubDate": "2026-01-16T16:56:20.297Z",
-    "contentSnippet": "Gemini 3 Pro Preview is introduced as a powerful, agentic model for complex, (semi)-autonomous workflows. New agentic features include `thinking_level` for reasoning control, Stateful Tool Use via Thought Signatures, and `media_resolution` for multimodal fidelity. It has Day 0 support for open-source frameworks like LangChain, AI SDK, LlamaIndex, Pydantic AI, and n8n. Best practices include simplifying prompts and keeping temperature at 1.0.",
-    "categories": [],
-    "source": "Google Developers",
-    "sourceUrl": "https://developers.googleblog.com/rss/"
-  },
-  {
-    "title": "Maximum-Effiency Coding Setup",
-    "link": "https://towardsdatascience.com/maximum-effiency-coding-setup/",
-    "pubDate": "2026-01-16T16:30:00.000Z",
-    "contentSnippet": "Learn how to be a more efficient programmer\nThe post Maximum-Effiency Coding Setup appeared first on Towards Data Science.",
-    "categories": [
-      "Programming",
-      "Agentic Ai",
-      "claude",
-      "Coding",
-      "coding agents",
-      "Productivity"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "ArkType Introduces ArkRegex with Type Safe Regular Expressions",
-    "link": "https://www.infoq.com/news/2026/01/arkregex-introduced-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-16T16:00:00.000Z",
-    "contentSnippet": "Introducing ArkRegex: a revolutionary drop-in for JavaScript's RegExp that ensures type safety in regular expressions without runtime overhead. Seamlessly integrate with native features like capture groups and receive robust type inference, revolutionizing TypeScript development and eliminating runtime failures. Simplify regex with confidence—experience ArkRegex today!\n By Daniel Curtis",
-    "categories": [
-      "Regular Expressions",
-      "JavaScript",
-      "Web Development",
-      "TypeScript",
-      "Validation",
-      "Development",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "350PB, Millions of Events, One System: Inside Uber’s Cross-Region Data Lake and Disaster Recovery",
-    "link": "https://www.infoq.com/news/2026/01/uber-hivesync-data-lake/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-16T15:00:00.000Z",
-    "contentSnippet": "Uber’s HiveSync is a sharded, cross-region batch replication system keeping Hive/HDFS data consistent across multiple regions. Handling 5M daily Hive events and 8PB of data replication, it uses event-driven jobs, hybrid RPC and DistCp strategies, DAG-based orchestration, and dynamic sharding, enabling disaster recovery, horizontal scaling, and 99.99% cross-region data accuracy.\n By Leela Kumili",
-    "categories": [
-      "Hive",
-      "Open Source",
-      "ETL",
-      "Sharding",
-      "MySQL",
-      "Hadoop",
-      "Data Warehouse",
-      "State-machine",
-      "Apache Hive",
-      "Orchestration",
-      "Deployment / Datacenter",
-      "Data Lake",
-      "RPC",
-      "Event Driven Architecture",
-      "Database Replication",
-      "Apache Hadoop",
-      "Architecture & Design",
-      "Development",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Cutting LLM Memory by 84%: A Deep Dive into Fused Kernels",
-    "link": "https://towardsdatascience.com/cutting-llm-memory-by-84-a-deep-dive-into-fused-kernels/",
-    "pubDate": "2026-01-16T15:00:00.000Z",
-    "contentSnippet": "Why your final LLM layer is OOMing and how to fix it with a custom Triton kernel.\nThe post Cutting LLM Memory by 84%: A Deep Dive into Fused Kernels appeared first on Towards Data Science.",
-    "categories": [
-      "Large Language Models",
-      "Cross Entropy",
-      "Deep Dives",
-      "Deep Learning",
-      "Kernel",
-      "Triton"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
     "title": "Astro is joining Cloudflare",
     "link": "https://blog.cloudflare.com/astro-joins-cloudflare/",
     "pubDate": "2026-01-16T14:00:00.000Z",
     "contentSnippet": "The Astro Technology Company team — the creators of the Astro web framework — is joining Cloudflare. We’re doubling down on making Astro the best framework for content-driven websites, today and in the years to come.",
     "categories": [
+      "Acquisitions",
       "Application Services",
       "Developer Platform",
       "Cloudflare Workers",
@@ -285,119 +829,6 @@
     "sourceUrl": "https://www.uber.com"
   },
   {
-    "title": "From RGB to Lab: Addressing Color Artifacts in AI Image Compositing",
-    "link": "https://towardsdatascience.com/from-rgb-to-lab-addressing-color-artifacts-in-ai-image-compositing/",
-    "pubDate": "2026-01-16T13:30:00.000Z",
-    "contentSnippet": "A multi-tier approach to segmentation, color correction, and domain-specific enhancement\nThe post From RGB to Lab: Addressing Color Artifacts in AI Image Compositing appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "Color",
-      "Computer Vision",
-      "Deep Learning",
-      "Editors Pick"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Cloudflare Launches ‘Code Orange: Fail Small’ Resilience Plan After Multiple Global Outages",
-    "link": "https://www.infoq.com/news/2026/01/cloudflare-resilience-plan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-16T12:00:00.000Z",
-    "contentSnippet": "Cloudflare recently published a detailed resilience initiative called Code Orange: Fail Small, outlining a comprehensive plan to prevent large-scale service disruptions after two major network outages in the past six weeks.\n By Craig Risi",
-    "categories": [
-      "Incident Response",
-      "Cloud",
-      "Resilience",
-      "Cloudflare",
-      "DevOps",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "The Great Data Closure: Why Databricks and Snowflake Are Hitting Their Ceiling",
-    "link": "https://towardsdatascience.com/the-great-data-closure-why-databricks-and-snowflake-are-hitting-their-ceiling/",
-    "pubDate": "2026-01-16T12:00:00.000Z",
-    "contentSnippet": "Acquisitions, venture, and an increasingly competitive landscape all point to a market ceiling\nThe post The Great Data Closure: Why Databricks and Snowflake Are Hitting Their Ceiling appeared first on Towards Data Science.",
-    "categories": [
-      "Data Science",
-      "Artificial Intelligence",
-      "Data Engineering",
-      "Databricks",
-      "Deep Dives",
-      "Snowflake"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Presentation: Holistic Engineering: Organic Problem Solving for Complex Evolving Systems",
-    "link": "https://www.infoq.com/presentations/holistic-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-16T09:50:00.000Z",
-    "contentSnippet": "Vanessa Formicola discusses how \"invisible\" forces shape our code and architecture. She shares patterns like \"Cirque du Soleil coding\" and \"Shared Kitchen Sinks,\" explaining why technical problems often have social roots. Architects and leaders will learn how to use Social Decision Records (SDRs) and holistic modeling to make the implicit explicit and drive success.\n By Vanessa Formicola",
-    "categories": [
-      "QCon London 2025",
-      "Transcripts",
-      "Work Management",
-      "Culture",
-      "Culture & Methods",
-      "presentation"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Podcast: Why Engineering Culture Is Everything: Building Teams That Actually Work",
-    "link": "https://www.infoq.com/podcasts/engineering-culture-building-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-16T09:00:00.000Z",
-    "contentSnippet": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Gonzalo (Glo) Maldonado about the central role of engineering culture, measuring team health through qualitative metrics, and learning from other engineering disciplines.\n By Gonzalo (Glo) Maldonado",
-    "categories": [
-      "Engineering Culture Podcast",
-      "Code Quality",
-      "Leadership",
-      "Teamwork",
-      "Management",
-      "Culture",
-      "Culture & Methods",
-      "podcast"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "When Shapley Values Break: A Guide to Robust Model Explainability",
-    "link": "https://towardsdatascience.com/when-shapley-values-break-a-guide-to-robust-model-explainability/",
-    "pubDate": "2026-01-15T16:30:00.000Z",
-    "contentSnippet": "Shapley Values are one of the most common methods for explainability, yet they can be misleading. Discover how to overcome these limitations to achieve better insights.\nThe post When Shapley Values Break: A Guide to Robust Model Explainability appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "Editors Pick",
-      "Explainable Ai",
-      "Machine Learning",
-      "Shap Values",
-      "Xai"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "How to Run Coding Agents in Parallel",
-    "link": "https://towardsdatascience.com/how-to-run-coding-agents-in-parallell/",
-    "pubDate": "2026-01-15T15:00:00.000Z",
-    "contentSnippet": "Get the most out of Claude Code\nThe post How to Run Coding Agents in Parallel appeared first on Towards Data Science.",
-    "categories": [
-      "Agentic AI",
-      "AI Agents",
-      "claude",
-      "Cli Tool",
-      "coding agents",
-      "Llm"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
     "title": "Human Native is joining Cloudflare",
     "link": "https://blog.cloudflare.com/human-native-joins-cloudflare/",
     "pubDate": "2026-01-15T14:00:00.000Z",
@@ -411,263 +842,6 @@
     ],
     "source": "Cloudflare",
     "sourceUrl": "https://blog.cloudflare.com"
-  },
-  {
-    "title": "The 2026 Goal Tracker: How I Built a Data-Driven Vision Board Using Python, Streamlit, and Neon",
-    "link": "https://towardsdatascience.com/the-2026-goal-tracker-how-i-built-a-data-driven-vision-board-using-python-streamlit-and-neon/",
-    "pubDate": "2026-01-15T13:30:00.000Z",
-    "contentSnippet": "Designing a centralized system to track daily habits and long-term goals\nThe post The 2026 Goal Tracker: How I Built a Data-Driven Vision Board Using Python, Streamlit, and Neon appeared first on Towards Data Science.",
-    "categories": [
-      "Productivity",
-      "Data Science",
-      "Data Visualization",
-      "Project Goals",
-      "Project Management",
-      "Python"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Do You Smell That? Hidden Technical Debt in AI Development",
-    "link": "https://towardsdatascience.com/do-you-smell-that-hidden-technical-debt-in-ai-development/",
-    "pubDate": "2026-01-15T12:00:00.000Z",
-    "contentSnippet": "Why speed without standards creates fragile AI products\nThe post Do You Smell That? Hidden Technical Debt in AI Development appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "AI coding assistants",
-      "Ai Product Management",
-      "Code Smells",
-      "Editors Pick",
-      "Programming"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Taking the Technical Leadership Path",
-    "link": "https://www.infoq.com/news/2026/01/technical-leadership-path/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-15T11:08:00.000Z",
-    "contentSnippet": "Technical leaders face challenges beyond individual contributor work: aligning with business on investments, managing systemic aspects, mentoring, and keeping up with a changing codebase. We need technical alignment—shared codestyle, implementation patterns, and standards—to avoid accidental complexity. Leadership grows through practicing skills, improving team issues, and acting as a role model.\n By Ben Linders",
-    "categories": [
-      "GOTO Conference",
-      "Social Skills",
-      "Code Quality",
-      "Team Leader",
-      "Leadership",
-      "Coaching and Mentoring",
-      "Complex Systems",
-      "Communication",
-      "Agile Conferences",
-      "Culture & Methods",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "AWS Hikes EC2 Capacity Block Rates by 15% in Uniform ML Pricing Adjustment",
-    "link": "https://www.infoq.com/news/2026/01/ec2-ml-capacity-price-hike/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-15T10:17:00.000Z",
-    "contentSnippet": "AWS has raised EC2 Capacity Block prices for ML by 15% across all regions, impacting GPU-based workloads. The uniform price hikes affect top-tier instances powered by NVIDIA GPUs, underscoring supply chain pressures and inflation. With limited alternatives, organizations face higher costs, emphasizing the need for effective workload optimization and cost management strategies.\n By Steef-Jan Wiggers",
-    "categories": [
-      "Cloud",
-      "Amazon",
-      "Machine Learning",
-      "Cost Optimization",
-      "GPU",
-      "EC2",
-      "Amazon Web Services",
-      "AWS",
-      "Architecture & Design",
-      "Development",
-      "DevOps",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Mistral Releases OCR 3 with Improved Accuracy on Handwritten and Structured Documents",
-    "link": "https://www.infoq.com/news/2026/01/mistral-ocr3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-15T09:00:00.000Z",
-    "contentSnippet": "Mistral has released Mistral OCR 3, the latest version of its optical character recognition model, focused on higher accuracy across a wide range of document types, including handwritten notes, forms, low-quality scans, and complex tables.\n By Robert Krzaczyński",
-    "categories": [
-      "Mistral AI",
-      "Large language models",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Django Releases Version 6.0 with Built-In Background Tasks and Native CSP Support",
-    "link": "https://www.infoq.com/news/2026/01/django-6-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-15T08:00:00.000Z",
-    "contentSnippet": "Django 6.0 has arrived, offering developers cutting-edge features like a built-in tasks framework, enhanced security with Content Security Policy, and template partials for modular design. This release supports Python 3.12 to 3.14, streamlining web app development while promoting clean, rapid design. Join the excitement as Django modernizes the landscape of web application development!\n By Daniel Curtis",
-    "categories": [
-      "Application Security",
-      "Web Development",
-      "Python",
-      "Django",
-      "Postgres",
-      "Development",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Why Human-Centered Data Analytics Matters More Than Ever",
-    "link": "https://towardsdatascience.com/why-human-centered-data-analytics-matters-more-than-ever/",
-    "pubDate": "2026-01-14T16:30:00.000Z",
-    "contentSnippet": "From optimizing metrics to designing meaning: putting people back into data-driven decisions\nThe post Why Human-Centered Data Analytics Matters More Than Ever appeared first on Towards Data Science.",
-    "categories": [
-      "Data Science",
-      "Data Analytics",
-      "Editors Pick",
-      "Feedback Loop",
-      "Human Centered Ai"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "What Is a Knowledge Graph — and Why It Matters",
-    "link": "https://towardsdatascience.com/what-is-a-knowledge-graph-and-why-it-matters/",
-    "pubDate": "2026-01-14T15:00:00.000Z",
-    "contentSnippet": "How structured knowledge became healthcare’s quiet advantage\nThe post What Is a Knowledge Graph — and Why It Matters appeared first on Towards Data Science.",
-    "categories": [
-      "Data Science",
-      "Data Governance",
-      "Editors Pick",
-      "Explainable Ai",
-      "Healthcare Analytics",
-      "Knowledge Graphs"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Presentation: Achieving a Culture That Works: Inclusive Leadership that Drives Lasting Success",
-    "link": "https://www.infoq.com/presentations/inclusive-leadership/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T14:15:00.000Z",
-    "contentSnippet": "Matthew Card discusses the intersection of leadership and inclusivity at the BBC. He explains how \"changing the bar\" rather than just raising it can transform team dynamics. Covering trust, psychological safety, and his \"C.A.P.S.\" and \"D.O.S.E.\" frameworks for resilience, he shares practical strategies for engineering leaders to eliminate toxic behaviors and empower diverse talent to thrive.\n By Matthew Card",
-    "categories": [
-      "Leadership",
-      "QCon London 2025",
-      "Transcripts",
-      "Inclusion",
-      "Culture & Methods",
-      "presentation"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Glitches in the Attention Matrix",
-    "link": "https://towardsdatascience.com/glitches-in-the-attention-matrix-a-history-of-transformer-artifacts-and-the-latest-research-on-how-to-fix-them/",
-    "pubDate": "2026-01-14T13:30:00.000Z",
-    "contentSnippet": "A history of Transformer artifacts and the latest research on how to fix them\nThe post Glitches in the Attention Matrix appeared first on Towards Data Science.",
-    "categories": [
-      "Deep Learning",
-      "Artificial Intelligence",
-      "Attention",
-      "Computer Vision",
-      "Deep Dives",
-      "Large Language Models"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Topic Modeling Techniques for 2026: Seeded Modeling, LLM Integration, and Data Summaries",
-    "link": "https://towardsdatascience.com/topic-modeling-techniques-for-2026-seeded-modeling-llm-integration-and-data-summaries/",
-    "pubDate": "2026-01-14T12:00:00.000Z",
-    "contentSnippet": "Seeded topic modeling, integration with LLMs, and training on summarized data are the fresh parts of the NLP toolkit.\nThe post Topic Modeling Techniques for 2026: Seeded Modeling, LLM Integration, and Data Summaries appeared first on Towards Data Science.",
-    "categories": [
-      "Machine Learning",
-      "Editors Pick",
-      "Llm Applications",
-      "NLP",
-      "Statistical Modeling",
-      "Topic Modelling"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "How Agoda Unified Multiple Data Pipelines into a Single Source of Truth",
-    "link": "https://www.infoq.com/news/2026/01/agoda-unified-data-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T11:30:00.000Z",
-    "contentSnippet": "Agoda recently described how it consolidated multiple independent data pipelines into a centralized Apache Spark-based platform to eliminate inconsistencies in financial data. The company implemented a multi-layered quality framework that combines automated validations, machine-learning-based anomaly detection, and data contracts, while processing millions of daily booking transactions.\n By Eran Stiller",
-    "categories": [
-      "Enterprise Architecture",
-      "Data Pipelines",
-      "Reference Architecture",
-      "Apache Spark",
-      "Architecture & Design",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "AI-Powered Code Editor Cursor Introduces Dynamic Context Discovery to Improve Token-Efficiency",
-    "link": "https://www.infoq.com/news/2026/01/cursor-dynamic-context-discovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T11:00:00.000Z",
-    "contentSnippet": "Cursor introduced a new approach to minimize the context size of requests sent to large language models. Called dynamic context discovery, this method moves away from including large amounts of static context upfront, allowing the agent to dynamically retrieve only the information it needs. This reduces token usage and limits the inclusion of potentially confusing or irrelevant details.\n By Sergio De Simone",
-    "categories": [
-      "Prompt Engineering",
-      "Model Context Protocol (MCP)",
-      "IDE",
-      "Agents",
-      "Large language models",
-      "Development",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Vercel Open-Sources Bash Tool for Context Retrieval Using Local Filesystems",
-    "link": "https://www.infoq.com/news/2026/01/vercel-bash-tool/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T10:56:00.000Z",
-    "contentSnippet": "Vercel has open-sourced bash-tool that provides a Bash execution engine for AI agents, enabling them to run filesystem-based commands to retrieve context for model prompts.\n By Daniel Dominguez",
-    "categories": [
-      "Cloud Computing",
-      "Artificial Intelligence",
-      "Software Development",
-      "Agents",
-      "Large language models",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Article: Platform-as-a-Product: Declarative Infrastructure for Developer Velocity",
-    "link": "https://www.infoq.com/articles/platform-golden-path-approach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-14T09:00:00.000Z",
-    "contentSnippet": "Declarative infrastructure config hides complexity, enabling developers to focus on application code. Unified YAML per service allows early cost validation, while independent CI with centralized CD balances team autonomy and deployment consistency. This standardized approach scales across organizations, making infrastructure invisible and operations automatic.\n By Avinash Sabat",
-    "categories": [
-      "Infrastructure as Code",
-      "Developer Experience",
-      "YAML",
-      "Automation",
-      "FinOps",
-      "Platform Engineering",
-      "DevSecOps",
-      "DevOps",
-      "article"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
   },
   {
     "title": "What came first: the CNAME or the A record?",
@@ -687,68 +861,6 @@
     "sourceUrl": "https://blog.cloudflare.com"
   },
   {
-    "title": "An introduction to AWS Bedrock",
-    "link": "https://towardsdatascience.com/an-introduction-to-aws-bedrock/",
-    "pubDate": "2026-01-13T18:00:00.000Z",
-    "contentSnippet": "The how, why, what and where of Amazon’s LLM access layer\nThe post An introduction to AWS Bedrock appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "AWS",
-      "Aws Bedrock",
-      "Data Science",
-      "Llm Applications",
-      "Programming"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "From ‘Dataslows’ to Dataflows: The Gen2 Performance Revolution in Microsoft Fabric",
-    "link": "https://towardsdatascience.com/from-dataslows-to-dataflows-the-gen2-performance-revolution-in-microsoft-fabric/",
-    "pubDate": "2026-01-13T16:30:00.000Z",
-    "contentSnippet": "Dataflows were (rightly?) considered \"the slowest and least performant option\" for ingesting data into Power BI/Microsoft Fabric. However, things are changing rapidly and the latest Dataflow enhancements changes how we play the game\nThe post From ‘Dataslows’ to Dataflows: The Gen2 Performance Revolution in Microsoft Fabric appeared first on Towards Data Science.",
-    "categories": [
-      "Data",
-      "Data analysis",
-      "Data Engineering",
-      "Microsoft Fabric"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "QCon London 2026: Practitioner-Led Tracks on Connectivity & Production AI Engineering",
-    "link": "https://www.infoq.com/news/2026/01/qcon-london-2026-ai-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "pubDate": "2026-01-13T16:00:00.000Z",
-    "contentSnippet": "QCon London 2026 returns March 16–19 with 15 tracks for senior leads. Key sessions cover system integration via MCP, AI engineering, and debugging distributed systems. Explore modern security, Staff+ insights, and performance optimization with peer-led and practical discussions.\n By Artenisa Chatziou",
-    "categories": [
-      "QCon Software Development Conference",
-      "Artificial Intelligence",
-      "Platform Engineering",
-      "Enterprise",
-      "QCon London 2026",
-      "AI, ML & Data Engineering",
-      "news"
-    ],
-    "source": "InfoQ",
-    "sourceUrl": "https://www.infoq.com"
-  },
-  {
-    "title": "Under the Uzès Sun: When Historical Data Reveals the Climate Change",
-    "link": "https://towardsdatascience.com/under-the-uzes-sun-when-historical-data-reveals-the-climate-change/",
-    "pubDate": "2026-01-13T15:00:00.000Z",
-    "contentSnippet": "Longer summers, milder winters: analysis of temperature trends in Uzès, France, year after year.\nThe post Under the Uzès Sun: When Historical Data Reveals the Climate Change appeared first on Towards Data Science.",
-    "categories": [
-      "Data Science",
-      "Climate Change",
-      "Climate Data",
-      "Data Analysis",
-      "Deep Dives"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
     "title": "\n        How Uber Conquered Database Overload: The Journey from Static Rate-Limiting to Intelligent Load Management\n      ",
     "link": "\n        https://www.uber.com/blog/from-static-rate-limiting-to-intelligent-load-management/\n      ",
     "pubDate": "2026-01-13T13:30:00.000Z",
@@ -758,38 +870,6 @@
     ],
     "source": "Uber Eng",
     "sourceUrl": "https://www.uber.com"
-  },
-  {
-    "title": "Why Your ML Model Works in Training But Fails in Production",
-    "link": "https://towardsdatascience.com/why-your-ml-model-works-in-training-but-fails-in-production/",
-    "pubDate": "2026-01-13T13:30:00.000Z",
-    "contentSnippet": "Hard lessons from building production ML systems where data leaks, defaults lie, populations shift, and time does not behave the way we expect.\nThe post Why Your ML Model Works in Training But Fails in Production appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "Data Science",
-      "Feature Engineering",
-      "Machine Learning",
-      "Mlops",
-      "Production Ml"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "How to Maximize Claude Code Effectiveness",
-    "link": "https://towardsdatascience.com/how-to-maximize-claude-code-effectiveness/",
-    "pubDate": "2026-01-13T12:00:00.000Z",
-    "contentSnippet": "Learn how to get the most out of agentic coding\nThe post How to Maximize Claude Code Effectiveness appeared first on Towards Data Science.",
-    "categories": [
-      "Agentic AI",
-      "AI coding assistants",
-      "coding agents",
-      "Editors Pick",
-      "Llm Applications",
-      "Programming"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
   },
   {
     "title": "What we know about Iran’s Internet shutdown",
@@ -804,54 +884,6 @@
     ],
     "source": "Cloudflare",
     "sourceUrl": "https://blog.cloudflare.com"
-  },
-  {
-    "title": "How AI Can Become Your Personal Language Tutor",
-    "link": "https://towardsdatascience.com/how-ai-can-become-your-personal-language-tutor/",
-    "pubDate": "2026-01-12T16:30:00.000Z",
-    "contentSnippet": "How I used n8n to build AI study partners for learning Mandarin: vocabulary, listening, and pronunciation correction.\nThe post How AI Can Become Your Personal Language Tutor appeared first on Towards Data Science.",
-    "categories": [
-      "Artificial Intelligence",
-      "AI",
-      "Data Science",
-      "Language",
-      "n8n",
-      "Productivity"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "Why 90% Accuracy in Text-to-SQL is 100% Useless",
-    "link": "https://towardsdatascience.com/why-90-accuracy-in-text-to-sql-is-100-useless/",
-    "pubDate": "2026-01-12T15:00:00.000Z",
-    "contentSnippet": "The eternal promise of self-service analytics\nThe post Why 90% Accuracy in Text-to-SQL is 100% Useless appeared first on Towards Data Science.",
-    "categories": [
-      "Large Language Models",
-      "Data Science",
-      "Editors Pick",
-      "Llm",
-      "Machine Learning",
-      "text-to-sql"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
-  },
-  {
-    "title": "When Does Adding Fancy RAG Features Work?",
-    "link": "https://towardsdatascience.com/when-does-adding-fancy-rag-features-work/",
-    "pubDate": "2026-01-12T13:30:00.000Z",
-    "contentSnippet": "Looking at the performance of different pipelines\nThe post When Does Adding Fancy RAG Features Work? appeared first on Towards Data Science.",
-    "categories": [
-      "Large Language Models",
-      "Ai Engineering",
-      "Artificial Intelligence",
-      "Editors Pick",
-      "Llm Evaluation",
-      "Rag"
-    ],
-    "source": "Towards Data Science",
-    "sourceUrl": "https://towardsdatascience.com/"
   },
   {
     "title": "The grief when AI writes most of the code",
@@ -1207,32 +1239,6 @@
       "Workers AI",
       "Developers",
       "Acquisitions"
-    ],
-    "source": "Cloudflare",
-    "sourceUrl": "https://blog.cloudflare.com"
-  },
-  {
-    "title": "Partnering with Black Forest Labs to bring FLUX.2 [dev] to Workers AI",
-    "link": "https://blog.cloudflare.com/flux-2-workers-ai/",
-    "pubDate": "2025-11-25T00:00:00.000Z",
-    "contentSnippet": "FLUX.2 [dev] by Black Forest Labs is now on Workers AI! This advanced open-weight image model offers superior photorealism, multi-reference inputs, and granular control with JSON prompting.",
-    "categories": [
-      "AI",
-      "Workers AI",
-      "Developers"
-    ],
-    "source": "Cloudflare",
-    "sourceUrl": "https://blog.cloudflare.com"
-  },
-  {
-    "title": "Get better visibility for the WAF with payload logging",
-    "link": "https://blog.cloudflare.com/waf-payload-logging/",
-    "pubDate": "2025-11-24T14:00:00.000Z",
-    "contentSnippet": "The WAF provides ways for our customers to gain insight into why it takes certain actions. The more granular and precise the insight, the more reproducible and understandable it is. Revamped payload logging is one such method.",
-    "categories": [
-      "Firewall",
-      "WAF",
-      "Logging"
     ],
     "source": "Cloudflare",
     "sourceUrl": "https://blog.cloudflare.com"
