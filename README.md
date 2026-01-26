@@ -15,6 +15,7 @@ A daily-updated aggregator that parses data from major engineering blogs (Cloudf
   - Towards Data Science
 - Clean, minimalist interface (Dark/Light mode support).
 - **Starring**: Save your favorite posts locally (uses `localStorage`).
+- **Archive**: Mark posts as read and view them in a separate Archive tab (uses `localStorage`).
 - **Filtering**: Search by title or tag.
 - **GitHub Actions**: Runs daily to fetch new posts and deploy to GitHub Pages.
 

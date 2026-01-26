@@ -13,7 +13,8 @@ export class TechFeedApp extends HTMLElement {
         this.state = {
             items: [],
             starredIds: JSON.parse(localStorage.getItem('tech_feed_starred') || '[]'),
-            view: 'new', // 'new' | 'starred'
+            readIds: JSON.parse(localStorage.getItem('tech_feed_read') || '[]'),
+            view: 'new', // 'new' | 'starred' | 'archive'
             search: '',
             loading: true
         };
@@ -144,17 +145,23 @@ export class TechFeedApp extends HTMLElement {
             this.state.starredIds.push(url);
         }
         localStorage.setItem('tech_feed_starred', JSON.stringify(this.state.starredIds));
+        this.renderList();
+    }
 
-        // If we are in 'starred' view, removing a star should remove the item
-        // If we are in 'new' view, we just need to re-render that item or the list using the new state.
-        // For simplicity, re-render the list.
+    handleToggleRead(e) {
+        const url = e.detail.url;
+        if (this.state.readIds.includes(url)) {
+            this.state.readIds = this.state.readIds.filter(id => id !== url);
+        } else {
+            this.state.readIds.push(url);
+        }
+        localStorage.setItem('tech_feed_read', JSON.stringify(this.state.readIds));
         this.renderList();
     }
 
     handleFilterTag(e) {
         const tag = e.detail.tag;
         this.state.search = tag.toLowerCase();
-        // update input value
         const input = this.shadowRoot.getElementById('search-input');
         if (input) input.value = tag;
         this.renderList();
@@ -163,8 +170,14 @@ export class TechFeedApp extends HTMLElement {
     getFilteredItems() {
         return this.state.items.filter(item => {
             const isStarred = this.state.starredIds.includes(item.link);
-            if (this.state.view === 'starred' && !isStarred) return false;
+            const isRead = this.state.readIds.includes(item.link);
 
+            // View filtering
+            if (this.state.view === 'starred' && !isStarred) return false;
+            if (this.state.view === 'new' && isRead) return false;
+            if (this.state.view === 'archive' && !isRead) return false;
+
+            // Search filtering
             if (this.state.search) {
                 const content = (item.title + ' ' + (item.categories || []).join(' ') + ' ' + item.source).toLowerCase();
                 if (!content.includes(this.state.search)) return false;
@@ -185,7 +198,6 @@ export class TechFeedApp extends HTMLElement {
     }
 
     render() {
-        // Main render function - sets up the structure
         this.shadowRoot.innerHTML = `
             <style>${TechFeedApp.styles}</style>
             <header>
@@ -193,6 +205,7 @@ export class TechFeedApp extends HTMLElement {
                 <div class="header-links">
                     <a id="view-new" class="${this.state.view === 'new' ? 'active' : ''}">New</a>
                     <a id="view-starred" class="${this.state.view === 'starred' ? 'active' : ''}">Starred</a>
+                    <a id="view-archive" class="${this.state.view === 'archive' ? 'active' : ''}">Archive</a>
                 </div>
             </header>
 
@@ -207,13 +220,13 @@ export class TechFeedApp extends HTMLElement {
             </footer>
         `;
 
-        // Event binding
         this.shadowRoot.getElementById('view-new').onclick = () => this.toggleView('new');
         this.shadowRoot.getElementById('view-starred').onclick = () => this.toggleView('starred');
+        this.shadowRoot.getElementById('view-archive').onclick = () => this.toggleView('archive');
         this.shadowRoot.getElementById('search-input').oninput = (e) => this.handleSearch(e);
 
-        // Listen for custom events bubbling up
         this.shadowRoot.addEventListener('toggle-star', (e) => this.handleToggleStar(e));
+        this.shadowRoot.addEventListener('toggle-read', (e) => this.handleToggleRead(e));
         this.shadowRoot.addEventListener('filter-tag', (e) => this.handleFilterTag(e));
 
         this.renderList();
@@ -244,11 +257,11 @@ export class TechFeedApp extends HTMLElement {
         // Render limited window for performance (300 items)
         filtered.slice(0, 300).forEach((item, idx) => {
             const el = document.createElement('feed-item');
-            // Pass data as property
             el.data = {
                 item,
                 index: idx,
-                isStarred: this.state.starredIds.includes(item.link)
+                isStarred: this.state.starredIds.includes(item.link),
+                isRead: this.state.readIds.includes(item.link)
             };
             container.appendChild(el);
         });

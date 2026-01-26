@@ -17,7 +17,7 @@ export class FeedItem extends HTMLElement {
                 padding: 12px 16px;
                 background-color: var(--card-bg, transparent); /* Fallback */
                 border-radius: 8px;
-                transition: background-color 0.2s ease;
+                transition: background-color 0.2s ease, opacity 0.2s ease;
                 font-family: inherit;
                 color: var(--text-primary);
             }
@@ -29,23 +29,43 @@ export class FeedItem extends HTMLElement {
                     background-color: rgba(255,255,255, 0.03);
                 }
             }
-            .star-btn {
+            .actions {
+                display: flex;
+                flex-direction: column;
+                margin-right: 12px;
+                gap: 4px;
+                margin-top: 2px;
+            }
+            .icon-btn {
                 background: none;
                 border: none;
                 cursor: pointer;
                 color: #d1d5db;
-                margin-right: 12px;
                 font-size: 18px;
-                padding: 0;
+                padding: 4px;
                 line-height: 1;
-                margin-top: 2px;
-                transition: color 0.2s;
+                transition: color 0.2s, transform 0.1s;
+                border-radius: 4px;
+            }
+            .icon-btn:hover {
+                background-color: rgba(0,0,0,0.05);
+            }
+            @media (prefers-color-scheme: dark) {
+                .icon-btn:hover {
+                    background-color: rgba(255,255,255,0.1);
+                }
             }
             .star-btn:hover {
                 color: #fbbf24;
             }
             .star-btn.starred {
-                color: #fbbf24; /* Amber-400 equivalent */
+                color: #fbbf24; /* Amber-400 */
+            }
+            .read-btn:hover {
+                color: #10b981; /* Emerald-500 */
+            }
+            .read-btn.read {
+                color: #10b981;
             }
             .content {
                 flex-grow: 1;
@@ -117,10 +137,11 @@ export class FeedItem extends HTMLElement {
         `;
     }
 
-    set data({ item, index, isStarred }) {
+    set data({ item, index, isStarred, isRead }) {
         this._item = item;
         this._index = index;
         this._isStarred = isStarred;
+        this._isRead = isRead;
         this.render();
     }
 
@@ -150,6 +171,14 @@ export class FeedItem extends HTMLElement {
         }));
     }
 
+    toggleRead() {
+        this.dispatchEvent(new CustomEvent('toggle-read', {
+            bubbles: true,
+            composed: true,
+            detail: { url: this._item.link }
+        }));
+    }
+
     filterTag(tag) {
         this.dispatchEvent(new CustomEvent('filter-tag', {
             bubbles: true,
@@ -166,7 +195,14 @@ export class FeedItem extends HTMLElement {
 
         this.shadowRoot.innerHTML = `
             <style>${FeedItem.styles}</style>
-            <button class="star-btn ${this._isStarred ? 'starred' : ''}">${this._isStarred ? '★' : '☆'}</button>
+            <div class="actions">
+                <button class="icon-btn star-btn ${this._isStarred ? 'starred' : ''}" title="Star">
+                    ${this._isStarred ? '★' : '☆'}
+                </button>
+                <button class="icon-btn read-btn ${this._isRead ? 'read' : ''}" title="Mark as Read">
+                    ${this._isRead ? '✓' : '○'}
+                </button>
+            </div>
             <div class="content">
                 <div class="title-line">
                     <a href="${link}" target="_blank" class="title-link">${title}</a>
@@ -181,14 +217,15 @@ export class FeedItem extends HTMLElement {
         `;
 
         // Add event listeners manually to keep clean
-        this.shadowRoot.querySelector('.star-btn').onclick = () => this.toggleStar();
+        this.shadowRoot.querySelector('.star-btn').onclick = (e) => { e.stopPropagation(); this.toggleStar(); };
+        this.shadowRoot.querySelector('.read-btn').onclick = (e) => { e.stopPropagation(); this.toggleRead(); };
 
         const tagsContainer = this.shadowRoot.querySelector('.tags');
         cats.forEach(c => {
             const tagSpan = document.createElement('span');
             tagSpan.className = 'tag';
             tagSpan.textContent = c;
-            tagSpan.onclick = () => this.filterTag(c);
+            tagSpan.onclick = (e) => { e.stopPropagation(); this.filterTag(c); };
             tagsContainer.appendChild(tagSpan);
         });
     }
