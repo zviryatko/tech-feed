@@ -29,10 +29,35 @@ const FEEDS = [
     { label: 'Towards Data Science', url: 'https://towardsdatascience.com/feed/' }
 ];
 
+// Production feed URL (GitHub Pages)
+const PRODUCTION_FEED_URL = 'https://zviryatko.github.io/tech-feed/feed.json';
+
 async function getExistingDates() {
+    // First try fetching from production
+    try {
+        console.log('Fetching existing feed from production...');
+        const response = await fetch(PRODUCTION_FEED_URL);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(`Loaded ${data.length} existing items from production`);
+            return data.reduce((acc, item) => {
+                if (item.link && item.pubDate) {
+                    acc[item.link] = new Date(item.pubDate);
+                }
+                return acc;
+            }, {});
+        } else {
+            console.warn(`Production feed returned ${response.status}`);
+        }
+    } catch (err) {
+        console.warn('Could not fetch production feed:', err.message);
+    }
+
+    // Fallback to local file if it exists
     try {
         if (await fs.pathExists('public/feed.json')) {
             const data = await fs.readJson('public/feed.json');
+            console.log(`Loaded ${data.length} existing items from local file`);
             return data.reduce((acc, item) => {
                 if (item.link && item.pubDate) {
                     acc[item.link] = new Date(item.pubDate);
@@ -41,8 +66,10 @@ async function getExistingDates() {
             }, {});
         }
     } catch (err) {
-        console.warn('Could not read existing feed.json', err);
+        console.warn('Could not read local feed.json:', err.message);
     }
+
+    console.log('No existing feed found, all items will be treated as new');
     return {};
 }
 
