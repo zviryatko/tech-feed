@@ -101,4 +101,13 @@ async function build() {
     console.log('Successfully wrote public/feed.json');
 }
 
-build();
+if (require.main === module) {
+    build();
+}
+
+module.exports = {
+    fetchFeed,
+    build,
+    getExistingDates,
+    FEEDS
+};
