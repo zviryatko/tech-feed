@@ -110,6 +110,12 @@ export class TechFeedApp extends HTMLElement {
 
     async connectedCallback() {
         this.renderSkeleton();
+
+        // Attach global event listeners once
+        this.shadowRoot.addEventListener('toggle-star', (e) => this.handleToggleStar(e));
+        this.shadowRoot.addEventListener('toggle-read', (e) => this.handleToggleRead(e));
+        this.shadowRoot.addEventListener('filter-tag', (e) => this.handleFilterTag(e));
+
         await this.fetchData();
         this.render();
     }
@@ -224,10 +230,6 @@ export class TechFeedApp extends HTMLElement {
         this.shadowRoot.getElementById('view-starred').onclick = () => this.toggleView('starred');
         this.shadowRoot.getElementById('view-archive').onclick = () => this.toggleView('archive');
         this.shadowRoot.getElementById('search-input').oninput = (e) => this.handleSearch(e);
-
-        this.shadowRoot.addEventListener('toggle-star', (e) => this.handleToggleStar(e));
-        this.shadowRoot.addEventListener('toggle-read', (e) => this.handleToggleRead(e));
-        this.shadowRoot.addEventListener('filter-tag', (e) => this.handleFilterTag(e));
 
         this.renderList();
     }
