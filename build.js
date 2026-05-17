@@ -77,10 +77,27 @@ async function fetchFeed(feedDef, existingDates = {}) {
     try {
         const feed = await parser.parseURL(feedDef.url);
         console.log(`Fetched ${feedDef.label}: ${feed.items.length} items`);
-        return feed.items.map(item => {
+        const itemPromises = feed.items.map(async item => {
             let pubDate;
             if (item.pubDate) {
                 pubDate = new Date(item.pubDate);
+            }
+
+            // Extract the true publication date from Google Developers blog article HTML
+            if (feedDef.label === 'Google Developers' && item.link) {
+                try {
+                    const res = await fetch(item.link);
+                    const html = await res.text();
+                    const match = html.match(/class="published-date[^"]*">\s*([^<]+?)\s*<\/div>/i);
+                    if (match && match[1]) {
+                        const parsedDate = new Date(match[1].trim());
+                        if (!isNaN(parsedDate.getTime())) {
+                            pubDate = parsedDate;
+                        }
+                    }
+                } catch (err) {
+                    console.warn(`Could not fetch article HTML for ${item.link}:`, err.message);
+                }
             }
 
             // If date is invalid or missing, check existing dates
@@ -102,6 +119,7 @@ async function fetchFeed(feedDef, existingDates = {}) {
                 sourceUrl: feed.link
             };
         });
+        return await Promise.all(itemPromises);
     } catch (err) {
         console.error(`Error fetching ${feedDef.label}:`, err.message);
         return [];
