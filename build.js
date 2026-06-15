@@ -28,7 +28,8 @@ const FEEDS = [
     { label: 'InfoQ', url: 'https://feed.infoq.com/' },
     { label: 'Towards Data Science', url: 'https://towardsdatascience.com/feed/' },
     { label: '@geohot', url: 'https://geohot.github.io/blog/feed.xml' },
-    { label: '@zviryatko', url: 'https://zviryatko.github.io/feed.xml' }
+    { label: '@zviryatko', url: 'https://zviryatko.github.io/feed.xml' },
+    { label: 'HFT University', url: 'https://lucisqr.substack.com/feed' }
 ];
 
 // Production feed URL (GitHub Pages)
